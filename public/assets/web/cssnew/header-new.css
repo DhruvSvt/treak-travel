@@ -1,0 +1,188 @@
+.tmimenu_icon {
+    margin: 0
+}
+
+.tmimenu_icon-bar {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 3px;
+    width: 32px;
+    margin-top: 4px
+}
+
+.u-vmenu ul li {
+    position: relative
+}
+
+.u-vmenu>ul>li span {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    top: 8px;
+    right: 15px
+}
+
+.u-vmenu {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 50px;
+    display: block;
+    padding: 15px 0;
+    background: #2c3549
+}
+
+.u-vmenu ul li {
+    width: 311px;
+    list-style: none;
+    background-color: #3b455b;
+    border-bottom: 1px solid #586b7e;
+    width: 100%
+}
+
+.u-vmenu ul li:last-child {
+    border-bottom: 0
+}
+
+.u-vmenu ul ul {
+    display: none
+}
+
+.u-vmenu>ul>li {
+    background-color: #2c3549;
+    border-bottom: 1px solid #3a444e
+}
+
+.u-vmenu ul li a {
+    font: 12px/35px 'SFProDisplay-Regular';
+    height: 46px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0
+}
+
+.u-vmenu>ul>li>a {
+    height: 46px;
+    padding-left: 25px;
+    font: 14px/45px SFProDisplay-Bold;
+    color: #fff
+}
+
+.u-vmenu>ul>li>ul>li>a {
+    padding-left: 45px;
+    font: 14px/45px 'SFProDisplay-Medium';
+    color: #fff;
+    height: 46px
+}
+
+.u-vmenu>ul>li>ul>li>ul>li>a {
+    padding-left: 60px;
+    background-color: #434b5d !important;
+    border-bottom: 0
+}
+
+.u-vmenu>ul>li>ul>li>ul>li>ul>li>a {
+    padding-left: 135px
+}
+
+.u-vmenu ul li span[data-option='on'] {
+    background: url(../packages-tour-india/kerala-travel-packages/images/footer-minus.png)no-repeat 96%;
+    background-size: 12px auto
+}
+
+.u-vmenu ul li span[data-option='off'] {
+    background: url(../packages-tour-india/kerala-travel-packages/images/footer-plus.png) no-repeat 96%;
+    background-size: 12px auto
+}
+
+@media only screen and (max-width:1060px) {
+    #onclic {
+        width: 64px;
+        height: 50px;
+        position: absolute;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        background-color: #eb1b20;
+        right: 0;
+        top: 0
+    }
+
+    #onclic span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 26px;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 19px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out
+    }
+
+    #onclic span:nth-child(1) {
+        top: 16px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center
+    }
+
+    #onclic span:nth-child(2) {
+        top: 24px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center
+    }
+
+    #onclic span:nth-child(3) {
+        top: 32px;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center
+    }
+
+    #onclic.tmimenu_btn_close span:nth-child(1) {
+        -webkit-transform: rotate(39deg);
+        -moz-transform: rotate(39deg);
+        -o-transform: rotate(39deg);
+        transform: rotate(39deg);
+        top: 15px;
+        left: 22px;
+        width: 26px
+    }
+
+    #onclic.tmimenu_btn_close span:nth-child(2) {
+        width: 0;
+        opacity: 0
+    }
+
+    #onclic.tmimenu_btn_close span:nth-child(3) {
+        -webkit-transform: rotate(-39deg);
+        -moz-transform: rotate(-39deg);
+        -o-transform: rotate(-39deg);
+        transform: rotate(-39deg);
+        top: 31px;
+        left: 22px;
+        width: 26px
+    }
+}
