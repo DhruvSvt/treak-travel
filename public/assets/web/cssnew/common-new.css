@@ -1,4 +1,3 @@
- 
 * {
     margin: 0;
     padding: 0;
@@ -215,8 +214,8 @@ body {
 
 .header-main .logo {
     position: absolute;
-    left: 25px;
-    top: 5px;
+    left: 11px;
+    top: -1px;
     z-index: 99
 }
 
@@ -226,9 +225,11 @@ body {
     font-family: 'SFProDisplay-Semibold';
     font-size: 15px
 }
-.navigation ul li.dropdown{
+
+.navigation ul li.dropdown {
     position: inherit;
 }
+
 .navigation ul li.dropdown a {
     background: url(../packages-tour-india/kerala-travel-packages/images/dropdown-arrow.svg) no-repeat 100% 7px;
     transition: all .3s
@@ -236,7 +237,7 @@ body {
 
 .navigation ul li.dropdown a:hover,
 .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li ul li a:hover {
-    color: #eb1c22
+    color: #32a048
 }
 
 .navigation ul li.dropdown ul.drop-menu {
@@ -249,6 +250,7 @@ body {
     background-color: #fff;
     z-index: 9;
 }
+
 .navigation ul li.dropdown:hover ul.drop-menu {
     display: block;
     box-shadow: 0 5px 12px rgba(56, 64, 79, 0.2)
@@ -265,11 +267,14 @@ body {
     padding: 0 15px;
     box-sizing: border-box
 }
-.right img{
+
+.right img {
     height: 236px;
 }
+
 .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li {
-    padding: 0;width: 100%;
+    padding: 0;
+    width: 100%;
 }
 
 .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li ul {
@@ -280,7 +285,7 @@ body {
 .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li h2 {
     padding-bottom: 25px;
     white-space: nowrap;
-font-size: 16px;
+    font-size: 16px;
     color: #000000;
 }
 
@@ -291,12 +296,12 @@ font-size: 16px;
 
 .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li ul li a {
     background: transparent;
-        line-height: 30px;
-        font-size: 15px;
-        color: #464646;
-        padding: 0;
-        font-weight: 400;
-        position: relative;
+    line-height: 30px;
+    font-size: 15px;
+    color: #464646;
+    padding: 0;
+    font-weight: 400;
+    position: relative;
 }
 
 .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li ul li.more a {
@@ -1121,9 +1126,11 @@ ul.drop-menu.wndg-twidth {
         padding: 0 35px
     }
 }
+
 .header-main .logo img {
-        max-width: 66px
-    }
+    max-width: 90px
+}
+
 @media only screen and (max-width:1366px) {
     .header-main {
         z-index: 99
@@ -1161,18 +1168,18 @@ ul.drop-menu.wndg-twidth {
 
     .header-main {
         height: 81px;
-            padding-top: 29px;
-            box-shadow: 1px 1px 1px #979797;
+        padding-top: 29px;
+        box-shadow: 1px 1px 1px #979797;
     }
 
-    .header-main .logo img {
+    /* .header-main .logo img {
         width: 79px
-    }
+    } */
 
     .navigation ul li.dropdown ul.drop-menu {
         top: 60px;
         padding-bottom: 15px
-    } 
+    }
 
     .navigation ul li.dropdown:hover ul.drop-menu .drop-menu-submenu1 ul li h2 {
         padding-bottom: 15px
@@ -1224,7 +1231,7 @@ ul.drop-menu.wndg-twidth {
         width: 50%
     }
 
-   
+
     /* ul.drop-menu.holiday-width-set {
         left: -120px !important;
         padding: 46px 46px !important;
@@ -1297,7 +1304,7 @@ ul.drop-menu.wndg-twidth {
     }
 
     .header-main .logo img {
-        width: 50px
+        width: 66px
     }
 }
 
@@ -1646,5 +1653,3 @@ a.logo-fot-link {
     font: 11px/15px 'SFProDisplay-Regular';
     color: #fff;
 }
-
-

@@ -5,13 +5,15 @@
             <div class="footer-head">
                 <div class="foot-head-left">
                     <div class="footer-logo">
-                        <a href="#"><img src="{{asset('assets/images/logo.png')}}" alt="logo"></a>
+                        <a href="#"><img src="{{asset('assets/images/logo.png')}}" alt="logo"
+                                style="height: 69px;width: 98px;"></a>
                     </div>
                     <span>It's time for new Experiences</span>
                 </div>
                 <div class="foot-head-right">
                     <small>Find The Perfect Escape</small>
-                    <a href="{{url('/plan-your-trip')}}" class="open-popup myBtn" data-id="popup_default">Plan Your Trip</a>
+                    <a href="{{url('/plan-your-trip')}}" class="open-popup myBtn" data-id="popup_default">Plan Your
+                        Trip</a>
                 </div>
             </div>
             <div class="footer-sec">
@@ -19,64 +21,61 @@
                     @php($cats = App\Models\TourCategory::select('*')->where('showinheader',1)->get())
                     @if(count($cats)> 0)
                     @foreach($cats as $cat)
-                <div class="col-md-3 col-sm-6 col-6 mt-3 ">
-                    <h6>{{$cat->tour_category_name}}</h6>
-                    <ul class="quicks-packages">
-                        
-                    
-                                                        @php($scats =
-                                                        App\Models\TourSubcategory::select('*')->where('tour_categories_id',$cat->id)->get())
-                                                        @if(count($scats)> 0)
-                                                        @foreach($scats as $scats)
-                                                        <li><a
-                                                                href="{{url('/category/'.$scats->slug)}}">{{$scats->tour_subcategory_name}}</a>
-                                                        </li>
-                                                        @endforeach
-                                                        @endif
-                                                   
-                                            </ul>
-                                      
-                                    </div>
-                                
+                    <div class="col-md-3 col-sm-6 col-6 mt-3 ">
+                        <h6>{{$cat->tour_category_name}}</h6>
+                        <ul class="quicks-packages">
+
+
+                            @php($scats =
+                            App\Models\TourSubcategory::select('*')->where('tour_categories_id',$cat->id)->get())
+                            @if(count($scats)> 0)
+                            @foreach($scats as $scats)
+                            <li><a href="{{url('/category/'.$scats->slug)}}">{{$scats->tour_subcategory_name}}</a>
+                            </li>
+                            @endforeach
+                            @endif
+
+                        </ul>
+
+                    </div>
+
                     @endforeach
                     @endif
-                
+
                 </div>
 
             </div>
         </div>
-        <div class="partners-sec">
+        {{-- <div class="partners-sec">
             <ul class="partners">
                 <li><img src="{{asset('assets/web/imagess/incridble.webp')}}" alt="partners image"></li>
                 <li><img src="{{asset('assets/web/imagess/tigers.webp')}}" alt="partners image"></li>
                 <li> <img src="{{asset('assets/web/imagess/triangle.webp')}}" alt="partners image"></li>
                 <li><img src="{{asset('assets/web/imagess/iata.webp')}}" alt="partners image"></li>
             </ul>
-        </div>
+        </div> --}}
         <div class="footer-info-content">
             <ul class="footer-info">
-                <li><i class="fa fa-map-marker" aria-hidden="true"></i>C -Sanjay Place - 201301</li>
-                <li><i class="fa fa-phone" aria-hidden="true"></i>+91-856-84459162 - 99 (85 hunting lines are
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Prateek Tower - Sanjay Place</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>+91-856-84451234 - 99 (85 hunting lines are
                     available)</li>
-                <li><i class="fa fa-fax" aria-hidden="true"></i>+91-120-84459162</li>
-                <li><i class="fa fa-mobile" aria-hidden="true"></i>+91-84459162/24</li>
-                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@anureetholiday.com </li>
-                <li><i class="fa fa-whatsapp" aria-hidden="true"></i>+91-9212777225 (Only for Whatsapp)</li>
-                <li><i class="fa fa-skype" aria-hidden="true"></i>anureetholiday</li>
+                <li><i class="fa fa-fax" aria-hidden="true"></i>+91-120-98989898</li>
+                <li><i class="fa fa-mobile" aria-hidden="true"></i>+91-84454545/24</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@treaktravel.com </li>
+                <li><i class="fa fa-whatsapp" aria-hidden="true"></i>+91-9212772525 (Only for Whatsapp)</li>
             </ul>
             <div class="social-icons">
-                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
-                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
                         aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/"
-                    target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube-play"
                         aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="footer-end">
-            <p>CopyRight©2023, Anureet Holiday</p>
+            <p>CopyRight©2024, Treak Travel</p>
         </div>
     </div>
 </footer>
@@ -113,7 +112,7 @@
             $('#u-vmenu').slideToggle("slow");
         });
     });
-    //for footer mobile display block on click start 
+    //for footer mobile display block on click start
     $('.footer-box').click(function () {
         $(this).find('.drop').toggleClass('active');
     });

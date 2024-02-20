@@ -46,7 +46,7 @@
                                                 <th>Title</th>
                                                 <th>Card Image</th>
                                                 <th>Destinations</th>
-                                                
+
                                                 <th width="20%" class="text-center">Action</th>
                                             </tr>
                                         </thead>
@@ -62,7 +62,7 @@
                                                         src="{{ Storage::url( $response->featured_destination_image) }}" />
                                                 </td>
                                                 <td>{{$response->destinations->destination_name}}</td>
- 
+
                                                 <td class="text-center">
                                                     <a class="text-primary mr-2" href="{{url('admin/edit-homepage-featured-destination/'.$response->featured_destination_id)}}">
                                                         <span class="btn btn-sm btn-primary">
@@ -82,7 +82,7 @@
                                     </table>
                                 </div>
 
-                               
+
                             </div>
                         </div>
                     </div>

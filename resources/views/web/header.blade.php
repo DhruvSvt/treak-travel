@@ -1,6 +1,6 @@
 <header class="header-main" style="position: relative;">
     <a href="{{url('/')}}" class="logo">
-        <img src="{{asset('assets/images/logo1.png')}}" alt="logo">
+        <img src="{{asset('assets/images/logo.png')}}" alt="logo">
     </a>
     <nav class="navigation">
         <ul>
@@ -89,11 +89,11 @@
     </nav>
     <div class="nav-right">
         <ul>
-            <li><a href="{{url('/plan-your-trip')}}"><i class="fa fa-map-marker" aria-hidden="true" style="    color: #eb1c22;
+            <li><a href="{{url('/plan-your-trip')}}"><i class="fa fa-map-marker" aria-hidden="true" style="    color: #2690b1;
     font-size: 18px;
     margin-right: 3px;"></i> Plan Your Trip</a>
             </li>
-            <li><a href="tel:+918529685269"><i class="fa fa-phone" aria-hidden="true" style="    color: #eb1c22;
+            <li><a href="tel:+918529685269"><i class="fa fa-phone" aria-hidden="true" style="    color: #2690b1;
     font-size: 18px;
     margin-right: 3px;"></i> +91 85296 85269</a>
             </li>
@@ -133,7 +133,8 @@
                 <span></span>
 
                 <ul>
-                    @php($scats = App\Models\TourSubcategory::select('*')->where('status',1)->where('tour_categories_id',$cat->id)->get())
+                    @php($scats =
+                    App\Models\TourSubcategory::select('*')->where('status',1)->where('tour_categories_id',$cat->id)->get())
                     @if(count($scats)> 0)
                     @foreach($scats as $scats)
                     <li><a href="{{url('/category/'.$scats->slug)}}">{{$scats->tour_subcategory_name}}</a></li>

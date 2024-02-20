@@ -4,35 +4,47 @@ a {
     text-decoration: none !important;
     color: black;
 }
+
 .picture-slide .owl-item img {
     display: block;
     width: 100%;
     height: 400px;
     object-fit: cover;
-}.golden-tour-banner .picture-gallery img {
+}
+
+.golden-tour-banner .picture-gallery img {
     padding-right: 8px;
     width: 100%;
     height: 196px;
     object-fit: cover;
-}.package_deal .destination .destination-circle {
+}
+
+.package_deal .destination .destination-circle {
     border: 1px solid #b1b1b1;
     display: flex;
     width: 42px;
     height: 42px;
     margin: auto;
-}.package_deal .destination {
+}
+
+.package_deal .destination {
     text-align: center;
-}.package_deal .destination .destination-circle img {
+}
+
+.package_deal .destination .destination-circle img {
     width: 28px !important;
     height: 28px;
     margin: auto;
-}.package_deal .destination p {
+}
+
+.package_deal .destination p {
     font-size: 11px;
     margin-bottom: 3px;
     text-align: center;
     padding-top: 0;
     color: #000;
 }
+
 .mfp-bottom-bar {
     display: none !important;
 }
@@ -87,7 +99,7 @@ a {
 
 a.navbar-brand {
     font-family: "DM Serif Display", serif !important;
-    color: #eb1d22 !important;
+    color: #2690b1 !important;
     font-size: 20px;
     font-weight: 400;
 }
@@ -179,7 +191,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-nav .nav-item .main-btn:hover {
-    background-color: #eb1d22 !important;
+    background-color: #2690b1 !important;
     color: #fff !important;
     transform: scale(1.05);
 }
@@ -197,7 +209,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-nav .nav-item button:hover {
-    background-color: #eb1d22 !important;
+    background-color: #2690b1 !important;
     color: #fff !important;
     transform: scale(1.05);
 }
@@ -213,7 +225,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-second {
-    background: #eb1d22;
+    background: #2690b1;
 }
 
 .navbar-second a.navbar-brand {
@@ -241,7 +253,7 @@ a.navbar-brand:hover {
 
 .navbar-second .nav-item .main-btn:hover {
     background-color: #fff !important;
-    color: #eb1d22 !important;
+    color: #2690b1 !important;
     transform: scale(1.05);
 }
 
@@ -426,7 +438,7 @@ a.navbar-brand:hover {
     line-height: 62px;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
-    color: #eb1d22;
+    color: #2690b1;
     text-align: center;
     text-transform: capitalize;
 }
@@ -628,7 +640,7 @@ a.navbar-brand:hover {
     line-height: 40px;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
-    color: #eb1d22;
+    color: #2690b1;
     background-color: white;
 }
 
@@ -1120,7 +1132,7 @@ section.more-info.py-5 .more-info-p {
     font-size: 52px;
     line-height: 70px;
     text-transform: capitalize;
-    color: #eb1d22;
+    color: #2690b1;
 }
 
 @media (max-width: 768px) {
@@ -1167,7 +1179,7 @@ section.more-info.py-5 .more-info-p {
 
 .tour-packages .jump-to .jump-to-list ul li a {
     margin-left: 18px;
-    color: #eb1d22;
+    color: #2690b1;
     font-size: 18px;
     font-weight: 600;
 }
@@ -1305,7 +1317,7 @@ section.more-info.py-5 .more-info-p {
     font-weight: 400;
     font-size: 46px;
     line-height: 40px;
-    color: #eb1d22;
+    color: #2690b1;
 }
 
 .golden-tour .col-lg-12.text-content ul {
@@ -1369,8 +1381,8 @@ section.more-info.py-5 .more-info-p {
 }
 
 .bottom-links li:hover {
-    color: #eb1d22;
-    border-bottom: 2px solid #eb1d22;
+    color: #2690b1;
+    border-bottom: 2px solid #2690b1;
 }
 
 .bottom-links li a {
@@ -1420,7 +1432,7 @@ section.more-info.py-5 .more-info-p {
     font-weight: 400;
     font-size: 40px;
     line-height: 55px;
-    color: #eb1d22;
+    color: #2690b1;
 }
 
 .overview-content .overview_box p {
@@ -1907,8 +1919,8 @@ textarea {
     right: 15px;
 }
 
-  
- 
+
+
 
 .tour-packages h4 {
     color: #000;
@@ -2347,9 +2359,11 @@ tbody tr td a:hover {
 .ui-widget-header .ui-icon {
     background-image: url(../golden-images/png-2.webp);
 }
+
 .accordion .accordion-item {
     padding: 0 9px;
 }
+
 .ui-datepicker .ui-icon {
     display: block;
     text-indent: -99999px;
@@ -2529,26 +2543,35 @@ html .ui-button.ui-state-disabled:active {
     font: 700 28px/28px 'Open Sans', sans-serif;
     position: unset;
 }
-@media only screen and (min-width: 800px){ .quote-form.sticky {
-    position: sticky !important;
-    top: 3px;
-    height: 100vh;
-    overflow-y: auto;
-}}.quote-form {
+
+@media only screen and (min-width: 800px) {
+    .quote-form.sticky {
+        position: sticky !important;
+        top: 3px;
+        height: 100vh;
+        overflow-y: auto;
+    }
+}
+
+.quote-form {
     float: right;
     width: 100%;
     padding: 11px;
-    background: #ffffff;
+    background: #c5f8d09c;
     border-radius: 5px;
-} .quote-form h2{   font-family: "DM Serif Display",
-    serif;
+}
+
+.quote-form h2 {
+    font-family: "DM Serif Display",
+        serif;
     font-weight: 400;
     font-size: 28px;
     line-height: 23px;
     color: #121212;
     padding-bottom: 14px;
     text-align: center;
-    }
+}
+
 .close:hover,
 .close:focus {
     color: #f45c00;
@@ -2721,7 +2744,10 @@ label span {
     color: #f45c00
 }
 
-.full input[type=text],.full input[type=email],.full input[type=tel],.full input[type=date],
+.full input[type=text],
+.full input[type=email],
+.full input[type=tel],
+.full input[type=date],
 .full select {
     width: 100%;
     padding: 7px;
