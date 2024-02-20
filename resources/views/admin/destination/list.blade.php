@@ -60,9 +60,11 @@
                                                      <td>
                                                         <img class="img-thumbnail" style="width:200px;"
                                                             src="{{ Storage::url($response->destination_card_image) }}" />
+                                                        {{-- <img class="img-thumbnail" style="width:200px;"
+                                                            src="{{ config('app.url')$response->destination_card_image }}" /> --}}
                                                     </td>
                                                     <td>{{ $response->destination_starting_price }}</td>
-                                         
+
                                                     <td class="text-center">
                                                         <a class="text-primary mr-2"
                                                             href="{{ route('edit-destination', ['id' => $response->destination_id]) }}">

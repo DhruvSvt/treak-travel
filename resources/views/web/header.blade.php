@@ -1,6 +1,6 @@
 <header class="header-main" style="position: relative;">
     <a href="{{url('/')}}" class="logo">
-        <img src="{{asset('assets/images/logo.png')}}" alt="logo">
+        <img src="{{asset('assets/images/logo1.png')}}" alt="logo">
     </a>
     <nav class="navigation">
         <ul>
