@@ -232,7 +232,7 @@ Route::group(['middleware' => ['customAuth'], 'prefix' => 'admin'], function () 
 });
 
 Route::get('/linkScymbo', function () {
-    $target = '/home1/mdcollegeagra/tour.mdayurvediccollege.in/storage/app/public';
-    $shortcut = '/home1/mdcollegeagra/tour.mdayurvediccollege.in/public/storage';
+    $target = '/home1/mdcollegeagra/treaktravel.mdayurvediccollege.in/storage/app/public';
+    $shortcut = '/home1/mdcollegeagra/treaktravel.mdayurvediccollege.in/public/storage';
     echo symlink($target, $shortcut);
 });
