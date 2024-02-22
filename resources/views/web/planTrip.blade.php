@@ -62,8 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <div class="quote-form " style="     border: 3px solid #ff0505;
-    border-radius: 0;">
+                    <div class="quote-form">
 
                         <h2>Request a <span>Custom Itinerary</span></h2>
 
