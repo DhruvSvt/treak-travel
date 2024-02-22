@@ -119,7 +119,7 @@ Route::group(['middleware' => ['customAuth'], 'prefix' => 'admin'], function () 
     Route::get('/tours', [TourController::class, 'get_read_all_tours'])->name('view-tour');
 
     Route::get('/tours-edit/{id}', [TourController::class, 'get_edit_tour'])->name('view-tour-edit');
-    Route::patch('/tours-update/{id}', [TourController::class, 'patch_edit_tour'])->name('update-tour');
+    Route::post('/tours-update/{id}', [TourController::class, 'patch_edit_tour'])->name('update-tour');
     Route::get('/tours-delete/{id}', [TourController::class, 'deleleTourById'])->name('delete-tour');
 
 
@@ -142,8 +142,7 @@ Route::group(['middleware' => ['customAuth'], 'prefix' => 'admin'], function () 
 
 
 
-    Route::get('/add-
-', [HomePageController::class, 'get_view_add_featured_destination']);
+    Route::get('/add-homepage-featured-destination', [HomePageController::class, 'get_view_add_featured_destination']);
     Route::post('/create-homepage-featured-destination', [HomePageController::class, 'post_create_featured_destination'])->name('create-featuredestination');
     Route::get('/homepage-featured-destination', [HomePageController::class, 'get_read_all_featured_destination']);
     Route::get('/edit-homepage-featured-destination/{id}', [HomePageController::class, 'get_edit_featured_destination']);

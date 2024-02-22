@@ -4,10 +4,10 @@
         <div class="footer-content">
             <div class="footer-head">
                 <div class="foot-head-left">
-                    <div class="footer-logo">
+                    {{-- <div class="footer-logo">
                         <a href="#"><img src="{{asset('assets/images/logo.png')}}" alt="logo"
                                 style="height: 69px;width: 98px;"></a>
-                    </div>
+                    </div> --}}
                     <span>It's time for new Experiences</span>
                 </div>
                 <div class="foot-head-right">
@@ -75,7 +75,7 @@
             </div>
         </div>
         <div class="footer-end">
-            <p>CopyRight©2024, Treak Travel</p>
+            <p>CopyRight © 2024, Treak Travel</p>
         </div>
     </div>
 </footer>

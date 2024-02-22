@@ -3,17 +3,17 @@
 
 <head>
 
-    <title>{{$destType->destionation_type_name}} Tour Packages | Anureet Holidays</title>
+    <title>{{$destType->destionation_type_name}} Tour Packages | Treak Travel</title>
     <meta name="description" content="{{$destType->destionation_type_name}}">
-    <meta name="keywords" content="{{$destType->destionation_type_name}},Anureet Holidays">
-    <meta property="og:title" content="{{$destType->destionation_type_name}} Tour Packages | Anureet Holidays" />
+    <meta name="keywords" content="{{$destType->destionation_type_name}},Treak Travel">
+    <meta property="og:title" content="{{$destType->destionation_type_name}} Tour Packages | Treak Travel" />
     <meta property="og:description" content="{{$destType->destionation_type_name}}" />
     <meta property="og:url" content="index.html" />
-    
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="{{$destType->destionation_type_name}}" />
-    <meta name="twitter:title" content="{{$destType->destionation_type_name}} Tour Packages | Anureet Holidays" />
-    
+    <meta name="twitter:title" content="{{$destType->destionation_type_name}} Tour Packages | Treak Travel" />
+
     @include('web.head')
     <link rel="stylesheet" href="{{asset('assets/web/csss/packages.css')}}">
 </head>
@@ -27,7 +27,7 @@
         <div class="container">
             <div class="banner-heading">
                 <span>{{$destType->destionation_type_name}} Tour Packages</span>
-                 
+
             </div>
         </div>
         <div class="baseline">

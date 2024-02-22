@@ -3,17 +3,17 @@
 
 <head>
 
-    <title>{{$subcategory->tour_subcategory_name}} Tour Packages | Anureet Holidays</title>
+    <title>{{$subcategory->tour_subcategory_name}} Tour Packages | Treak Travel</title>
     <meta name="description" content="{{$subcategory->seo_description}}">
-    <meta name="keywords" content="{{$subcategory->tour_subcategory_name}},Anureet Holidays">
-    <meta property="og:title" content="{{$subcategory->tour_subcategory_name}} Tour Packages | Anureet Holidays" />
+    <meta name="keywords" content="{{$subcategory->tour_subcategory_name}},Treak Travel">
+    <meta property="og:title" content="{{$subcategory->tour_subcategory_name}} Tour Packages | Treak Travel" />
     <meta property="og:description" content="{{$subcategory->seo_description}}" />
     <meta property="og:url" content="index.html" />
     <meta property="og:image" content="{{ Storage::url($subcategory->banner_image) }}" />
     <meta property="og:image:secure_url" content="{{ Storage::url($subcategory->banner_image) }}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="{{$subcategory->seo_description}}" />
-    <meta name="twitter:title" content="{{$subcategory->tour_subcategory_name}} Tour Packages | Anureet Holidays" />
+    <meta name="twitter:title" content="{{$subcategory->tour_subcategory_name}} Tour Packages | Treak Travel" />
     <meta name="twitter:image" content="{{ Storage::url($subcategory->banner_image) }}" />
     @include('web.head')
     <link rel="stylesheet" href="{{asset('assets/web/csss/packages.css')}}">
@@ -23,8 +23,7 @@
     <!-- header -->
     @include('web.header')
 
-    <section class="banner-sec"
-        style="background-image:url('{{ Storage::url($subcategory->banner_image) }}')">
+    <section class="banner-sec" style="background-image:url('{{ Storage::url($subcategory->banner_image) }}')">
         <div class="container">
             <div class="banner-heading">
                 <span>{{$subcategory->tour_subcategory_name}} Tour Packages</span>

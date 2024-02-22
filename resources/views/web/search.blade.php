@@ -3,16 +3,16 @@
 
 <head>
 
-    <title>{{$search}}   | Anureet Holidays</title>
+    <title>{{$search}} | Treak Travel</title>
     <meta name="description" content="{{$search}}">
-    <meta name="keywords" content="{{$search}},Anureet Holidays">
-    <meta property="og:title" content="{{$search}}   | Anureet Holidays" />
+    <meta name="keywords" content="{{$search}},Treak Travel">
+    <meta property="og:title" content="{{$search}}   | Treak Travel" />
     <meta property="og:description" content="{{$search}}" />
     <meta property="og:url" content="index.html" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="{{$search}}" />
-    <meta name="twitter:title" content="{{$search}}   | Anureet Holidays" />
+    <meta name="twitter:title" content="{{$search}}   | Treak Travel" />
 
     @include('web.head')
     <link rel="stylesheet" href="{{asset('assets/web/csss/packages.css')}}">

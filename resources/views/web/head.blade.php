@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-<link rel="icon" href="{{asset('assets/images/fav.jpg')}}" />
+<link rel="icon" href="{{asset('assets/images/favicon.jpg')}}" />
 <meta property="og:site_name" content="anureetholiday" />
 <meta property="og:image:width" content="1600" />
 <meta property="og:image:height" content="587" />
@@ -13,7 +13,7 @@
 <meta name="msapplication-navbutton-color" content="#ffb900">
 <meta name="apple-mobile-web-app-status-bar-style" content="#ffb900">
 
- 
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 

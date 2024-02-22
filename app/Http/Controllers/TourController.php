@@ -206,8 +206,7 @@ class TourController extends Controller
             $tourCategoryResponse = TourSubcategory::where('tour_subcategories_id', $id)->update($request->except(['_token', '_method', 'bannerimage']));
             $tourCategoryResponse = TourSubcategory::where('tour_subcategories_id', $id)->first();
             Session::flash('success', 'update success');
-            // return redirect()->intended('/admin/subcategory-edit/' . $id);
-            return response()->json(['success' => true]);
+            return redirect()->intended('/admin/subcategory');
         } catch (Exception $e) {
             $tourCategoryResponse = TourCategory::where('id', $id)->first();
             Session::flash('error', $e->getMessage());

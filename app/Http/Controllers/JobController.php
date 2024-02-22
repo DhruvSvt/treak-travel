@@ -70,10 +70,10 @@ class JobController extends Controller
             // die;
             $tourCategoryResponse = Job::where('id', $id)->delete();
             Session::flash('success', 'deleted successfully');
-            return redirect()->intended('jobs');
+            return redirect()->intended('/admin/jobs');
         } catch (Exception $e) {
             Session::flash('error', $e->getMessage());
-            return redirect()->intended('admin/jobs');
+            return redirect()->intended('/admin/jobs');
         }
     }
     public function get_add_job(Request $request)
@@ -97,5 +97,4 @@ class JobController extends Controller
             return response()->json(["status" => 500, "message" => $e->getMessage(), "data" => []], 500);
         }
     }
-
 }

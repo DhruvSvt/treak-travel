@@ -6149,12 +6149,13 @@ pre code {
     width: 100%;
     margin-bottom: 1rem;
     background-color: transparent;
-        border: 1px solid #3d3d3d;
-            box-shadow: 1px 1px 13px #a7a7a7;
+    border: 1px solid #3d3d3d;
+    box-shadow: 1px 1px 13px #a7a7a7;
 }
-.thead-dark{
-        border: 1px solid #3d3d3d;
-            box-shadow: 1px 1px 13px #a7a7a7;
+
+.thead-dark {
+    border: 1px solid #3d3d3d;
+    box-shadow: 1px 1px 13px #a7a7a7;
 }
 
 .table td,
@@ -6424,7 +6425,7 @@ pre code {
 .table .thead-dark th {
     color: #fff;
     background-color: #3d3d3d;
-        border-color: #3d3d3d;
+    border-color: #3d3d3d;
 }
 
 .table .thead-light th {
@@ -6553,8 +6554,8 @@ pre code {
     color: #665c70;
     background-color: #fff;
     border-color: #3d3b93;
-        outline: 0;
-        box-shadow: 0 0 0 0.2rem rgb(61 59 147 / 25%);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(61 59 147 / 25%);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -22545,7 +22546,7 @@ a.typo_link.text-gray-900:after {
 
 .layout-sidebar-large .main-header .logo img {
     width: auto;
-    max-height: 40px;
+    max-height: 55px;
     height: auto;
     margin: 0 auto;
     display: block
@@ -22686,7 +22687,7 @@ a.typo_link.text-gray-900:after {
     padding: 2rem 2rem 0;
     position: relative;
     min-height: calc(100vh - 80px);
-    
+
 }
 
 .main-content-wrap.sidenav-open {
@@ -24304,9 +24305,12 @@ ul.metismenu {
     align-items: flex-start;
     max-width: initial
 }
+
 .card-icon-bg .card-body .content .text-muted {
     color: #eb1c22 !important;
-    font-size: 17px;}
+    font-size: 17px;
+}
+
 .card-icon-bg [class^=i-] {
     font-size: 4rem;
     color: hsla(0, 0%, 73.3%, .28)
@@ -25935,10 +25939,10 @@ table.dataTable-collapse {
 
 .form-group label {
     font-size: 12px;
-        color: #3d3d3d;
-        margin-bottom: 4px;
-        font-weight: 600;
-        text-transform: uppercase;
+    color: #3d3d3d;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .form-control {
@@ -33120,8 +33124,8 @@ div.tab-border {
 
 .auth-logo img {
     width: auto;
-        height: 55px;
-        margin: 14px 0;
+    height: 55px;
+    margin: 14px 0;
 }
 
 @media (min-width: 1024px) {

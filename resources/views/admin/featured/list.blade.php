@@ -24,7 +24,8 @@
             <div class="main-content">
                 <div class="breadcrumb">
                     <h1 class="">Top Destinations List </h1>
-                    <a href="{{url('admin/add-homepage-featured-destination')}}" class="ml-3 btn btn-primary">Add Top Destinations</a>
+                    <a href="{{url('admin/add-homepage-featured-destination')}}" class="ml-3 btn btn-primary">Add Top
+                        Destinations</a>
                 </div>
 
                 <div class="separator-breadcrumb border-top"></div>
@@ -64,12 +65,14 @@
                                                 <td>{{$response->destinations->destination_name}}</td>
 
                                                 <td class="text-center">
-                                                    <a class="text-primary mr-2" href="{{url('admin/edit-homepage-featured-destination/'.$response->featured_destination_id)}}">
+                                                    <a class="text-primary mr-2"
+                                                        href="{{url('admin/edit-homepage-featured-destination/'.$response->featured_destination_id)}}">
                                                         <span class="btn btn-sm btn-primary">
                                                             <i class="nav-icon i-Pen-3"></i> Edit
                                                         </span>
                                                     </a>
-                                                    <a href="{{route('delete-featureddestination',['id'=>$response->featured_destination_id])}}" class="text-primary mr-2">
+                                                    <a href="{{route('delete-featureddestination',['id'=>$response->featured_destination_id])}}"
+                                                        class="text-primary mr-2">
                                                         <span class="btn btn-sm btn-danger">
                                                             <i class="nav-icon i-Close-Window"></i> Delete
                                                         </span>

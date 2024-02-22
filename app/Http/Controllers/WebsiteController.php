@@ -43,7 +43,7 @@ class WebsiteController extends Controller
     {
         $destination = Destination::select('*')->where('destination_slug', $slug)->first();
         $desid = $destination->destination_id;
-        $tour = Tour::select('tours.tours_id', 'tours.select_inclusion', 'tours.tours_price', 'tours.tours_name', 'tours.tours_duration', 'tours.tours_banner', 'tours.tours_description', 'tours.tours_url')->join('tour_destination', 'tour_destination.tour_id', '=', 'tours.tours_id')->where('tour_destination.destination_id', $desid)->get();
+        $tour = Tour::select('tours.tours_id', 'tours.select_inclusion', 'tours.tours_price', 'tours.tours_name', 'tours.tours_duration', 'tours.tours_banner', 'tours.tours_description', 'tours.tours_url')->join('tour_destination', 'tour_destination.tour_id', '=', 'tours.tours_id')->where('tour_destination.destination_id', $desid)->whereStatus(true)->get();
         $weekend_d = InternationalDestination::with('destinations')->skip(0)->take(8)->get();
         return view('web/packages', ['destination' => $destination, 'tour' => $tour, 'weekend_d' => $weekend_d]);
     }

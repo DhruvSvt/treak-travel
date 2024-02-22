@@ -40,7 +40,7 @@
                                 <form method="POST"
                                     action="{{ route('update-subcategory', ['id' => $tourSubCategory->tour_subcategories_id]) }}" enctype="multipart/form-data">
                                     @csrf
-                                    @method('PATCH')
+                                    @method('POST')
                                     <div class="row">
                                         <div class="form-group col-sm-6">
                                             <label for="title">Title</label>
@@ -71,7 +71,7 @@
     <label for="short_description">SEO Description</label>
     <textarea name="seo_description" class="form-control" required>{{ $tourSubCategory->seo_description }}</textarea>
 </div>
-                                       
+
 
                                         <div class="form-group col-sm-12 text-right">
                                             <a href="{{ url()->previous() }}" class="btn btn-default">

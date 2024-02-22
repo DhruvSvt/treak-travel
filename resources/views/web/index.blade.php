@@ -3,21 +3,21 @@
 
 <head>
 
-    <title>Tourism & Tour Packages Travel | Anureet Holidays</title>
+    <title>Tourism & Tour Packages Travel | Treak Travel</title>
     <meta name="description"
-        content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Anureet Holidays.">
+        content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Treak Travel.">
     <meta name="keywords"
         content="india tour, tours in india, india tourism portal, travel guide india, incredible india, india tourism">
-    <meta property="og:title" content="Anureet Holidays: Your Gateway to Incredible India | India Tourism" />
+    <meta property="og:title" content="Treak Travel: Your Gateway to Incredible India | India Tourism" />
     <meta property="og:description"
-        content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Anureet Holidays." />
+        content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Treak Travel." />
     <meta property="og:url" content="index.html" />
     <meta property="og:image" content="{{asset('assets/images/logo.jpg')}}" />
     <meta property="og:image:secure_url" content="{{asset('assets/images/logo.jpg')}}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description"
-        content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Anureet Holidays." />
-    <meta name="twitter:title" content="Anureet Holidays: Your Gateway to Incredible India | India Tourism" />
+        content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Treak Travel." />
+    <meta name="twitter:title" content="Treak Travel: Your Gateway to Incredible India | India Tourism" />
     <meta name="twitter:image" content="{{asset('assets/images/logo.jpg')}}" />
     @include('web.head')
 </head>
@@ -38,7 +38,7 @@
                     <div class="main-img">
                         <figure>
                             <a href="{{$res->page_url}}" target="_blank"><img
-                                    src="{{ Storage::url( $res->banner_image) }}" alt="Anureet Holidays"></a>
+                                    src="{{ Storage::url( $res->banner_image) }}" alt="Treak Travel"></a>
                         </figure>
 
                     </div>
@@ -61,7 +61,7 @@
     <section class="holiday-package holiday-arrows">
         <div class="container1">
             <div class="main-heading mb-3">
-                <h2>Top Trending Destinations</h2>
+                <h2>Treak Travel Trending Destinations</h2>
 
             </div>
             <div class="holiday-pack">
@@ -148,7 +148,7 @@
                     <div class="main-img">
                         <figure>
                             <a href="{{$res->page_url}}" target="_blank"><img
-                                    src="{{ Storage::url( $res->banner_image) }}" alt="Anureet Holidays"></a>
+                                    src="{{ Storage::url( $res->banner_image) }}" alt="Treak Travel"></a>
                         </figure>
 
                     </div>
@@ -225,7 +225,7 @@
 
 
     <!-- Happy travelers -->
-    <section class="happy-customers p-tb">
+    <section class="happy-customers mt-5 p-tb">
         <div class="container1">
             <div class="main-heading mb-3">
                 <h2>Guest Satisfaction is Our Goal;<br> Valuable Feedback Matters to Us</h2>

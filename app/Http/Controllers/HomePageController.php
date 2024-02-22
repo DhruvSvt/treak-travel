@@ -67,7 +67,7 @@ class HomePageController extends Controller
     public function get_edit_homepage_banner(Request $request, $id)
     {
         try {
-            $homePageBannerResponse = HomePageBanner::where("id",$id)->first();
+            $homePageBannerResponse = HomePageBanner::where("id", $id)->first();
 
             return view(
                 'admin.homeBanner.edit',
@@ -92,7 +92,7 @@ class HomePageController extends Controller
                 $request['banner_image'] = $pathBanner;
             }
 
-            $destinationResponse = HomePageBanner::where('id', $id)->update($request->except(['_token', '_method','homePageBanner']));
+            $destinationResponse = HomePageBanner::where('id', $id)->update($request->except(['_token', '_method', 'homePageBanner']));
             Session::flash('success', 'update success');
             return redirect()->intended('/admin/homepage-banner');
         } catch (Exception $e) {
@@ -204,7 +204,7 @@ class HomePageController extends Controller
                 'admin.featured.edit',
                 [
                     'homePageBannerResponse' => $homePageBannerResponse,
-                    'destinationResponse'=> $destinationResponse
+                    'destinationResponse' => $destinationResponse
 
                 ]
             );
@@ -219,7 +219,7 @@ class HomePageController extends Controller
         try {
 
             if ($request->file('featureDestinationCardImage')) {
-                $imageBanner = $request->file('homePageBanner');
+                $imageBanner = $request->file('featureDestinationCardImage');
                 $pathBanner = $imageBanner->store('images/home/featuredDestination', 'public');
                 $request['featured_destination_image'] = $pathBanner;
             }
@@ -302,7 +302,7 @@ class HomePageController extends Controller
     public function get_view_add_indian_destination(Request $request)
     {
         try {
-            $indianDestinationResponse = Destination::where('destination_type_id',2)->get();
+            $indianDestinationResponse = Destination::where('destination_type_id', 2)->get();
             return view('admin/indian-destinations/add', ['indianDestinationResponse' => $indianDestinationResponse]);
         } catch (Exception $e) {
             Session::flash('error', $e->getMessage());
@@ -347,102 +347,102 @@ class HomePageController extends Controller
         }
     }
 
-     //best shortbrake destinations
+    //best shortbrake destinations
 
 
-     public function get_view_add_shortbrake_destination(Request $request)
-     {
-         try {
-             $shortbrakeDestinationResponse = Destination::all();
-             return view('admin/shortbrake-destinations/add', ['shortbrakeDestinationResponse' => $shortbrakeDestinationResponse]);
-         } catch (Exception $e) {
-             Session::flash('error', $e->getMessage());
-             print_r($e->getMessage());
-             die;
-             return view('admin/indian-destinations/add', ['shortbrakeDestinationResponse' => '']);
-         }
-     }
+    public function get_view_add_shortbrake_destination(Request $request)
+    {
+        try {
+            $shortbrakeDestinationResponse = Destination::all();
+            return view('admin/shortbrake-destinations/add', ['shortbrakeDestinationResponse' => $shortbrakeDestinationResponse]);
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            print_r($e->getMessage());
+            die;
+            return view('admin/indian-destinations/add', ['shortbrakeDestinationResponse' => '']);
+        }
+    }
 
-     public function post_create_shortbrake_destination(Request $request)
-     {
-         try {
+    public function post_create_shortbrake_destination(Request $request)
+    {
+        try {
 
-             $imageBanner = $request->file('destionationCard');
+            $imageBanner = $request->file('destionationCard');
 
-             $pathBanner = $imageBanner->store('images/home/indianDestination', 'public');
+            $pathBanner = $imageBanner->store('images/home/indianDestination', 'public');
 
-             $shortbrakeDestination = new ShortBrakeDestination();
-             $shortbrakeDestination->shortbrake_destination_name = $request->destinationName;
-             $shortbrakeDestination->destination_id = $request->destination;
-             $shortbrakeDestination->seo_descr = $request->seoDescr;
-             $shortbrakeDestination->shortbrake_price = $request->destinationPrice;
-             $shortbrakeDestination->shortbrake_destination_image = $pathBanner;
-             $shortbrakeDestination->save();
+            $shortbrakeDestination = new ShortBrakeDestination();
+            $shortbrakeDestination->shortbrake_destination_name = $request->destinationName;
+            $shortbrakeDestination->destination_id = $request->destination;
+            $shortbrakeDestination->seo_descr = $request->seoDescr;
+            $shortbrakeDestination->shortbrake_price = $request->destinationPrice;
+            $shortbrakeDestination->shortbrake_destination_image = $pathBanner;
+            $shortbrakeDestination->save();
 
-             Session::flash('success', 'Destinations created successfully');
-             return  redirect()->intended('/admin/best-shortbrake-destination');
-         } catch (Exception $e) {
-             Session::flash('error', $e->getMessage());
-             return redirect()->intended('/admin/best-shortbrake-destination');
-         }
-     }
+            Session::flash('success', 'Destinations created successfully');
+            return  redirect()->intended('/admin/best-shortbrake-destination');
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            return redirect()->intended('/admin/best-shortbrake-destination');
+        }
+    }
 
-     public function get_read_all_shortbrake_destination(Request $request)
-     {
-         try {
-             $shortbrakeDestinationResponse = ShortBrakeDestination::with('destinations')->get();
-             return view('admin/shortbrake-destinations/list', ['shortbrakeDestinationResponse' => $shortbrakeDestinationResponse]);
-         } catch (Exception $e) {
-             Session::flash('error', $e->getMessage());
-             return view('admin/shortbrake-destinations/list', ['shortbrakeDestinationResponse' => []]);
-         }
-     }
+    public function get_read_all_shortbrake_destination(Request $request)
+    {
+        try {
+            $shortbrakeDestinationResponse = ShortBrakeDestination::with('destinations')->get();
+            return view('admin/shortbrake-destinations/list', ['shortbrakeDestinationResponse' => $shortbrakeDestinationResponse]);
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            return view('admin/shortbrake-destinations/list', ['shortbrakeDestinationResponse' => []]);
+        }
+    }
 
-     public function get_read_our_client(Request $request)
-     {
-         try {
-             $ourClientResponse = OurClient::all();
-             return view('admin/ourclient/list', ['ourClientResponse' => $ourClientResponse]);
-         } catch (Exception $e) {
-             Session::flash('error', $e->getMessage());
-             return view('admin/ourclient/list', ['ourClientResponse' => []]);
-         }
-     }
+    public function get_read_our_client(Request $request)
+    {
+        try {
+            $ourClientResponse = OurClient::all();
+            return view('admin/ourclient/list', ['ourClientResponse' => $ourClientResponse]);
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            return view('admin/ourclient/list', ['ourClientResponse' => []]);
+        }
+    }
 
-     public function get_view_add_our_client(Request $request)
-     {
-         try {
+    public function get_view_add_our_client(Request $request)
+    {
+        try {
 
-             return view('admin/ourclient/add');
-         } catch (Exception $e) {
-             Session::flash('error', $e->getMessage());
-             print_r($e->getMessage());
-             die;
-             return view('admin/ourclient/add');
-         }
-     }
+            return view('admin/ourclient/add');
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            print_r($e->getMessage());
+            die;
+            return view('admin/ourclient/add');
+        }
+    }
 
-     public function post_create_our_client(Request $request)
-     {
-         try {
+    public function post_create_our_client(Request $request)
+    {
+        try {
 
-             $imageBanner = $request->file('ourclientimage');
+            $imageBanner = $request->file('ourclientimage');
 
-             $pathBanner = $imageBanner->store('images/home/ourclient', 'public');
+            $pathBanner = $imageBanner->store('images/home/ourclient', 'public');
 
-             $ourClient = new OurClient();
-             $ourClient->our_client_image = $pathBanner;
-             $ourClient->save();
+            $ourClient = new OurClient();
+            $ourClient->our_client_image = $pathBanner;
+            $ourClient->save();
 
-             Session::flash('success', 'Our Client created successfully');
-             return  redirect()->intended('/admin/our-client');
-         } catch (Exception $e) {
-             Session::flash('error', $e->getMessage());
-             return redirect()->intended('/admin/our-client');
-         }
-     }
+            Session::flash('success', 'Our Client created successfully');
+            return  redirect()->intended('/admin/our-client');
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            return redirect()->intended('/admin/our-client');
+        }
+    }
 
-     public function delete_our_client(Request $request,$id)
+    public function delete_our_client(Request $request, $id)
     {
         try {
 
@@ -500,17 +500,16 @@ class HomePageController extends Controller
         }
     }
 
-    public function delete_our_accreditations(Request $request,$id)
-   {
-       try {
+    public function delete_our_accreditations(Request $request, $id)
+    {
+        try {
 
-           $response = OurAccreditations::where('id', $id)->delete();
-           Session::flash('success', 'deleted successfully');
-           return redirect()->intended('/admin/our-accreditations');
-       } catch (Exception $e) {
-           Session::flash('error', $e->getMessage());
-           return redirect()->intended('/admin/our-accreditations');
-       }
-   }
-
+            $response = OurAccreditations::where('id', $id)->delete();
+            Session::flash('success', 'deleted successfully');
+            return redirect()->intended('/admin/our-accreditations');
+        } catch (Exception $e) {
+            Session::flash('error', $e->getMessage());
+            return redirect()->intended('/admin/our-accreditations');
+        }
+    }
 }

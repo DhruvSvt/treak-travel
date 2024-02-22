@@ -48,7 +48,7 @@
                                                 <th>Tour Package Price</th>
                                                 <th>Tour Package Duration</th>
                                                 <th>Tour Package Banner Image</th>
-                                                
+
                                                 <th>Tour Package Destinations</th>
                                                 <th class="text-center">Status</th>
                                                 <th width="20%" class="text-center">Action</th>
@@ -56,51 +56,64 @@
                                         </thead>
                                         <tbody>
                                             @foreach ($tourResponse as $response)
-                                                <tr>
-                                                    <td class="text-right">#{{ $response->tours_id }}</td>
-                                                    <td>{{ $response->tours_name }}</td>
-                                                    <td>{{ $response->tours_price }}</td>
-                                                    <td>{{ $response->tours_duration }}</td>
-                                                    <td>
-                                                        <img class="img-thumbnail" style="width:200px;"
-                                                            src="{{ Storage::url($response->tours_banner) }}" />
-                                                    </td> 
-                                                    <td>
-                                                        @foreach ($response->destinations as $responseDestination)
-                                                            {{ $responseDestination->destination_name }},
-                                                        @endforeach
-                                                    </td>
-                                                    
-                                                    <td class="text-center">
-                                                        <label class="switch switch-success mr-3">
-                                                            <span>Active</span>
-                                                            <input type="checkbox" id="statusCheckbox"
-                                                                {{ $response->status ? 'checked' : '' }}
-                                                                onChange='statusChanged({{ $response->tours_id }},{{ $response->status }})'>
-                                                            <span class="slider"></span>
-                                                        </label>
-                                                    </td>
-                                                    <td class="text-center">
-                                                        <a class=" mr-2"
-                                                            href="{{ route('view-tour-edit', ['id' => $response->tours_id]) }}">
-                                                            <span class="btn btn-sm btn-success">
-                                                                <i class="nav-icon i-Pen-3"></i> Edit
-                                                            </span>
-                                                        </a>
-                                                        <a href="{{ route('delete-tour', ['id' => $response->tours_id]) }}"
-                                                            class="text-primary mr-2">
-                                                            <span class="btn btn-sm btn-danger">
-                                                                <i class="nav-icon i-Close-Window"></i> Delete
-                                                            </span>
-                                                        </a>
-                                                      <a target="_blank" href="tour/{{ $response->tours_url }}"
-                                                            class="  mr-2">
-                                                            <span class="btn btn-sm btn-warning">
-                                                                <i class="nav-icon i-view"></i> View On Website
-                                                            </span>
-                                                        </a>
-                                                    </td>
-                                                </tr>
+                                            <tr>
+                                                <td class="text-right">#{{ $response->tours_id }}</td>
+                                                <td>{{ $response->tours_name }}</td>
+                                                <td>{{ $response->tours_price }}</td>
+                                                <td>{{ $response->tours_duration }}</td>
+                                                <td>
+                                                    <img class="img-thumbnail" style="width:200px;"
+                                                        src="{{ Storage::url($response->tours_banner) }}" />
+                                                </td>
+                                                <td>
+                                                    @foreach ($response->destinations as $responseDestination)
+                                                    {{ $responseDestination->destination_name }},
+                                                    @endforeach
+                                                </td>
+
+                                                <td class="text-center">
+                                                    <label class="switch switch-success mr-3">
+                                                        <span>Active</span>
+                                                        <input type="checkbox" id="statusCheckbox" {{ $response->status
+                                                        ? 'checked' : '' }}
+                                                        onChange='statusChanged({{ $response->tours_id }},{{
+                                                        $response->status }})'>
+                                                        <span class="slider"></span>
+                                                    </label>
+                                                </td>
+                                                {{-- <td class="text-center">
+                                                    <label class="switch switch-success mr-3">
+                                                        <span>Active</span>
+                                                        <input type="checkbox"
+                                                            id="statusCheckbox{{ $response->tours_id }}" {{
+                                                            $response->status ?
+                                                        'checked' : '' }}
+                                                        onchange="statusChanged({{ $response->tours_id
+                                                        }})">
+                                                        <span class="slider"></span>
+                                                    </label>
+                                                </td> --}}
+                                                <td class="text-center">
+                                                    <a class=" mr-2"
+                                                        href="{{ route('view-tour-edit', ['id' => $response->tours_id]) }}">
+                                                        <span class="btn btn-sm btn-success">
+                                                            <i class="nav-icon i-Pen-3"></i> Edit
+                                                        </span>
+                                                    </a>
+                                                    <a href="{{ route('delete-tour', ['id' => $response->tours_id]) }}"
+                                                        class="text-primary mr-2">
+                                                        <span class="btn btn-sm btn-danger">
+                                                            <i class="nav-icon i-Close-Window"></i> Delete
+                                                        </span>
+                                                    </a>
+                                                    {{-- <a target="_blank" href="tour/{{ $response->tours_url }}"
+                                                        class="  mr-2">
+                                                        <span class="btn btn-sm btn-warning">
+                                                            <i class="nav-icon i-view"></i> View On Website
+                                                        </span>
+                                                    </a> --}}
+                                                </td>
+                                            </tr>
                                             @endforeach
 
 
@@ -108,7 +121,7 @@
                                     </table>
                                 </div>
 
-                                
+
                             </div>
                         </div>
                     </div>
@@ -133,10 +146,10 @@
         });
     </script>
 
-<script>
-    function statusChanged(id, status) {
+    <script>
+        function statusChanged(id, status) {
         // const checkBox = document.getElementById("statusCheckbox").value;
-       
+
         $.ajax({
             url: `{{url('api/tour')}}/${id}`,
             type: 'PATCH',
@@ -159,7 +172,31 @@
             }
         })
     }
-</script>
+    </script>
+
+    {{-- <script>
+        function statusChanged(id) {
+                const checkBox = document.getElementById("statusCheckbox" + id);
+                // console.log(checkBox.checked);
+                $.ajax({
+                    url: `tours-update/${id}`,
+                    type: 'POST',
+                    headers: {
+                        'X-CSRF-Token': '{{ csrf_token() }}',
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    data: JSON.stringify({ status: checkBox.checked }),
+                    success: function(data) {
+                        toastr.success("updated");
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        console.log(errorThrown);
+                        checkBox.checked = !checkBox.checked;
+                    }
+                });
+            }
+    </script> --}}
 
 </body>
 
