@@ -28,7 +28,7 @@
         <div class="container">
             <div class="banner-heading">
                 <span>{{$destination->destination_name}} Tour Packages</span>
-                <p>{{ $destination->destination_seo_description}}</p>
+                <div>{!! $destination->destination_seo_description !!}</div>
             </div>
         </div>
         <div class="baseline">

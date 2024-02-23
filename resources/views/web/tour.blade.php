@@ -232,6 +232,19 @@
 
                                     </div>
                                 </div>
+                                <div class="col-lg-12">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show" id="pills-profile" role="tabpanel"
+                                            aria-labelledby="pills-profile-tab">
+                                            <div class="row">
+                                                <div class="col-lg-12 exclusion ">
+                                                    {!! $tour->tours_exclusion !!}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
