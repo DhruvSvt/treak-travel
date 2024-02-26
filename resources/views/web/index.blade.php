@@ -12,13 +12,13 @@
     <meta property="og:description"
         content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Treak Travel." />
     <meta property="og:url" content="index.html" />
-    <meta property="og:image" content="{{asset('assets/images/logo.jpg')}}" />
+    <meta property="og:image" content="{{asset('assets/images/logo.png')}}" />
     <meta property="og:image:secure_url" content="{{asset('assets/images/logo.png')}}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description"
         content="The best travel guides on India travel & tourism to explore the best of Incredible India tours along with affordable India tour packages. Get the best deals with Treak Travel." />
     <meta name="twitter:title" content="Treak Travel: Your Gateway to Incredible India | India Tourism" />
-    <meta name="twitter:image" content="{{asset('assets/images/logo.jpg')}}" />
+    <meta name="twitter:image" content="{{asset('assets/images/logo.png')}}" />
     @include('web.head')
 </head>
 
