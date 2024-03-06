@@ -72,7 +72,7 @@
                                 src="{{ Storage::url($res->destination_card_image) }}"
                                 alt="{{$res->destination_name}}"></a>
                         <div class="pack-content common-hover">
-                            <span>Starting @ {{$res->destination_starting_price}}</span>
+
                             <h3><a href="{{url('/packages/'.$res->destination_slug)}}">{{$res->destination_name}}</a>
                             </h3>
                         </div>
@@ -106,7 +106,7 @@
                             <h4><a href="{{url('/packages/'.$res->destinations->destination_slug)}}"
                                     target="_blank">{{$res->featured_destination_name}}</a>
                             </h4>
-                            <span>Starting at:{{$res->destinations->destination_starting_price}}</span>
+
                         </div>
                     </div>
                 </div>

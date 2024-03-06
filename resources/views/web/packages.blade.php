@@ -95,7 +95,7 @@
                                         <p>{{$res->tours_duration}}</p>
                                         <p>Deluxe</p>
                                         <div class="inner">
-                                            <h3></h3><span>Starting From</span>{{$res->tours_price}}</h3>
+                                            <h3></h3><span>Price</span>{{$res->tours_price}}</h3>
                                             <div class="d-flex flex-wrap justify-content-around"><button type="button"
                                                     class="mybtn"><a
                                                         href="{{url('/tour/'.$destination->destination_slug.'/'.$res->tours_url)}}"
