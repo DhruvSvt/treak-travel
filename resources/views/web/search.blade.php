@@ -92,18 +92,19 @@
                                 <div class="  col-md-3 col-4">
                                     <div class="destination_price" style="height: 100%;">
                                         <p>{{$res->tours_duration}}</p>
-                                        <p>Deluxe</p>
-                                        <div class="inner">
-                                            <h3></h3><span>Starting From</span>{{$res->tours_price}}</h3>
-                                            <div class="d-flex flex-wrap justify-content-around"><button type="button"
-                                                    class="mybtn"><a
-                                                        href="{{url('/tour/'.$res->destination_slug.'/'.$res->tours_url)}}"
-                                                        style="text-decoration: none; color: white;">Explore
-                                                        Now</a></button><button type="button" class="mybtn1"
-                                                    data-bs-toggle="modal" data-bs-target="#form46">Enquire Now</button>
-                                            </div>
+                                        <<p>{{$res->tour_type}}</p>
+                                            <div class="inner">
+                                                <h3></h3><span>Price</span>{{$res->tours_price}}</h3>
+                                                <div class="d-flex flex-wrap justify-content-around"><button
+                                                        type="button" class="mybtn"><a
+                                                            href="{{url('/tour/'.$res->destination_slug.'/'.$res->tours_url)}}"
+                                                            style="text-decoration: none; color: white;">Explore
+                                                            Now</a></button><button type="button" class="mybtn1"
+                                                        data-bs-toggle="modal" data-bs-target="#form46">Enquire
+                                                        Now</button>
+                                                </div>
 
-                                        </div>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
