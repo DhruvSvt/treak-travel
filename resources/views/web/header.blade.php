@@ -5,6 +5,12 @@
         font-size: 16px;
         letter-spacing: 0.51px;
     }
+
+    @media only screen and (max-width: 1060px) {
+        .header-main .logo img {
+            width: 59px;
+        }
+    }
 </style>
 <header class="header-main" style="position: relative;">
     <a href="{{url('/')}}" class="logo">
