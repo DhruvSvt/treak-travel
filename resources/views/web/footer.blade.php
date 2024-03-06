@@ -15,7 +15,7 @@
                         <a href="#"><img src="{{asset('assets/images/logo.png')}}" alt="logo"
                                 style="height: 69px;width: 98px;"></a>
                     </div> --}}
-                    <span>It's time for new Experiences</span>
+                    <span style="padding-left: 0px;">It's time for new Experiences</span>
                 </div>
                 <div class="foot-head-right">
                     <small>Find The Perfect Escape</small>
