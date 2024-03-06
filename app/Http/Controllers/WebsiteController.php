@@ -30,7 +30,7 @@ class WebsiteController extends Controller
         $topBanner = HomePageBanner::select('*')->orderBy('banner_position', 'ASC')->get();
         $promoBanner = PromotionalBanner::select('*')->orderBy('banner_position', 'ASC')->get();
         $first_fd = FeaturedDestination::with('destinations')->skip(0)->take(1)->get();
-        $next_fd = FeaturedDestination::with('destinations')->skip(1)->take(6)->get();
+        $next_fd = FeaturedDestination::with('destinations')->skip(1)->take(4)->get();
         $trending_d = Destination::select('*')->where('istrending', '=', '1')->orderBy('destination_id', 'DESC')->get();
         $interest_d = Destination::select('*')->join('destination_types', 'destination_types.id', '=', 'destinations.destination_type_id')->groupBy('destinations.destination_type_id')->get();
         $weekend_d = InternationalDestination::with('destinations')->skip(0)->take(8)->get();

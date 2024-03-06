@@ -114,7 +114,7 @@
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="row flex-wrap">
                         @foreach ( $next_fd as $res )
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-6 trend-visit">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6 trend-visit">
                             <div class="trend-sec-right">
                                 <a href="{{url('/packages/'.$res->destinations->destination_slug)}}"
                                     target="_blank"><img src="{{ Storage::url( $res->featured_destination_image) }}"
@@ -125,7 +125,7 @@
                                     <h4><a href="{{url('/packages/'.$res->destinations->destination_slug)}}"
                                             target="_blank">{{$res->featured_destination_name}}</a>
                                     </h4>
-                                    <span>Starting at:{{$res->destinations->destination_starting_price}}</span>
+
                                 </div>
                             </div>
                         </div>
