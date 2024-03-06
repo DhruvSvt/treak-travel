@@ -83,7 +83,7 @@
                             </div>
                             <p>{{$tour->tours_duration}}</p>
                             </p>
-                            <ul class="d-flex route-line">
+                            {{-- <ul class="d-flex route-line">
 
                                 @foreach ($destinations as $res)
                                 <li> {{$res->destination_name}}
@@ -92,7 +92,7 @@
                                     @endif
                                 </li>
                                 @endforeach
-                            </ul>
+                            </ul> --}}
                         </div>
                     </div>
                 </div>
