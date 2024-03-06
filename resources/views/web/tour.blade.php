@@ -148,7 +148,7 @@
                 <li><a href="#overview">Overview</a></li>
                 <li><a href="#itinerary">Itinerary</a></li>
                 <li><a href="#inclusions">Inclusions & Exclusions</a></li>
-                @if ($tourhotels)<li><a href="#hotels">Hotels</a></li>@endif
+                @if (isset($tourhotels))<li><a href="#hotels">Hotels</a></li>@endif
                 <li><a href="#disclaimer">Disclaimer</a></li>
             </ul>
         </div>
@@ -248,7 +248,7 @@
                             </div>
                         </div>
 
-                        @if ($tourhotels)
+                        @if (isset($tourhotels))
                         <div id="hotels" class="col-lg-12 mb-4 inclusions_and_exclusions overview_box">
                             <h3>Hotels</h3>
                             <div class="row">
