@@ -1,4 +1,11 @@
 <!-- footer -->
+<style>
+    footer {
+
+        background-color: rgb(0 0 0 / 84%);
+        background-blend-mode: multiply;
+    }
+</style>
 <footer>
     <div class="container1 footer-con">
         <div class="footer-content">
@@ -21,16 +28,17 @@
                     @php($cats = App\Models\TourCategory::select('*')->where('showinheader',1)->get())
                     @if(count($cats)> 0)
                     @foreach($cats as $cat)
-                    <div class="col-md-3 col-sm-6 col-6 mt-3 ">
+                    <div class="col-md-12 ">
                         <h6>{{$cat->tour_category_name}}</h6>
-                        <ul class="quicks-packages">
+                        <ul class="quicks-packages" style="display: inline;">
 
 
                             @php($scats =
                             App\Models\TourSubcategory::select('*')->where('tour_categories_id',$cat->id)->get())
                             @if(count($scats)> 0)
                             @foreach($scats as $scats)
-                            <li><a href="{{url('/category/'.$scats->slug)}}">{{$scats->tour_subcategory_name}}</a>
+                            <li style="display: inline;
+    padding-left: 12px;"><a href="{{url('/category/'.$scats->slug)}}">{{$scats->tour_subcategory_name}}</a>
                             </li>
                             @endforeach
                             @endif
