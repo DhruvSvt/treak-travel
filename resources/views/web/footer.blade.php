@@ -83,7 +83,8 @@
             </div>
         </div>
         <div class="footer-end">
-            <p>CopyRight © 2024, Treak Travel</p>
+            <p>CopyRight © 2024, Treak Travel | Designed & Developed By <a href="https://svtindia.in"
+                    target="_blank">SVT India</a></p>
         </div>
     </div>
 </footer>
