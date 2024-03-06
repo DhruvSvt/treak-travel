@@ -43,7 +43,7 @@ class WebsiteController extends Controller
     {
         $destination = Destination::select('*')->where('destination_slug', $slug)->first();
         $desid = $destination->destination_id;
-        $tour = Tour::select('tours.tours_id', 'tours.select_inclusion', 'tours.tours_price', 'tours.tours_name', 'tours.tours_duration', 'tours.tours_banner', 'tours.tours_description', 'tours.tours_url')->join('tour_destination', 'tour_destination.tour_id', '=', 'tours.tours_id')->where('tour_destination.destination_id', $desid)->whereStatus(true)->get();
+        $tour = Tour::select('tours.tours_id', 'tours.select_inclusion', 'tours.tours_price', 'tours.tour_type', 'tours.tours_name', 'tours.tours_duration', 'tours.tours_banner', 'tours.tours_description', 'tours.tours_url')->join('tour_destination', 'tour_destination.tour_id', '=', 'tours.tours_id')->where('tour_destination.destination_id', $desid)->whereStatus(true)->get();
         $weekend_d = InternationalDestination::with('destinations')->skip(0)->take(8)->get();
         return view('web/packages', ['destination' => $destination, 'tour' => $tour, 'weekend_d' => $weekend_d]);
     }
@@ -66,7 +66,7 @@ class WebsiteController extends Controller
     {
         if (isset($request->search) && $request->search != '') {
             $search = $request->search;
-            $tour = Tour::select('tours.tours_id', 'tours.select_inclusion', 'tours.tours_price', 'tours.tours_name', 'tours.tours_duration', 'tours.tours_banner', 'tours.tours_description', 'tours.tours_url', 'destinations.destination_slug')->join('tour_destination', 'tour_destination.tour_id', '=', 'tours.tours_id')->join('destinations', 'destinations.destination_id', '=', 'tour_destination.destination_id')->where('destinations.destination_name', 'like', '%' . $search . '%')
+            $tour = Tour::select('tours.tours_id', 'tours.select_inclusion', 'tours.tours_price', 'tours.tour_type', 'tours.tours_name', 'tours.tours_duration', 'tours.tours_banner', 'tours.tours_description', 'tours.tours_url', 'destinations.destination_slug')->join('tour_destination', 'tour_destination.tour_id', '=', 'tours.tours_id')->join('destinations', 'destinations.destination_id', '=', 'tour_destination.destination_id')->where('destinations.destination_name', 'like', '%' . $search . '%')
                 ->orWhere('destinations.destination_seo_description', 'LIKE', '%' . $search . '%')
                 ->orWhere('tours.tours_name', 'LIKE', '%' . $search . '%')
                 ->groupBy('tours.tours_id')->get();
