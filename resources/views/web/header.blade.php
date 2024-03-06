@@ -1,3 +1,11 @@
+<style>
+    .navigation ul li a {
+        color: #005876;
+        padding-right: 30px;
+        font-size: 16px;
+        letter-spacing: 0.51px;
+    }
+</style>
 <header class="header-main" style="position: relative;">
     <a href="{{url('/')}}" class="logo">
         <img src="{{asset('assets/images/logo.png')}}" alt="logo">

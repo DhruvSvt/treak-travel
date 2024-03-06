@@ -61,7 +61,7 @@
     <section class="holiday-package holiday-arrows">
         <div class="container1">
             <div class="main-heading mb-3">
-                <h2>Treak Travel Trending Destinations</h2>
+                <h2>Indian Destinations</h2>
 
             </div>
             <div class="holiday-pack">
