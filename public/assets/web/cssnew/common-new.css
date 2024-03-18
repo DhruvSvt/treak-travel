@@ -1128,7 +1128,7 @@ ul.drop-menu.wndg-twidth {
 }
 
 .header-main .logo img {
-    max-width: 81px
+    max-width: 103px
 }
 
 @media only screen and (max-width:1366px) {
@@ -1167,8 +1167,8 @@ ul.drop-menu.wndg-twidth {
     }
 
     .header-main {
-        height: 81px;
-        padding-top: 29px;
+        height: 90px;
+        padding-top: 33px;
         box-shadow: 1px 1px 1px #979797;
     }
 
