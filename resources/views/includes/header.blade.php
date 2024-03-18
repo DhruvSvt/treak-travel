@@ -45,7 +45,7 @@
 <div class="side-content-wrap">
     <div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar data-suppress-scroll-x="true">
         <ul class="navigation-left">
-             <li class="nav-item ">
+            <li class="nav-item ">
                 <a class="nav-item-hold" href="/admin/">
                     <i class="nav-icon i-Bar-Chart"></i>
                     <span class="nav-text">Dashboard</span>
@@ -60,7 +60,7 @@
                 </a>
                 <div class="triangle"></div>
             </li> --}}
-             <li class="nav-item " data-item="tour">
+            <li class="nav-item " data-item="tour">
                 <a class="nav-item-hold" href="#">
                     <i class="nav-icon i-Jeep"></i>
                     <span class="nav-text">Tour Package</span>
@@ -100,14 +100,14 @@
 
     <div class="sidebar-left-secondary rtl-ps-none" data-perfect-scrollbar data-suppress-scroll-x="true">
         <!-- Submenu Dashboards -->
-   <ul class="childNav" data-parent="bookings">
+        <ul class="childNav" data-parent="bookings">
             <li class="nav-item">
                 <a class="" href="/admin/bookings">
                     <i class="nav-icon i-Receipt-4"></i>
                     <span class="item-name">New Bookings</span>
                 </a>
             </li>
-             <li class="nav-item">
+            <li class="nav-item">
                 <a class="" href="/admin/bookings">
                     <i class="nav-icon i-Receipt-4"></i>
                     <span class="item-name">Completed Bookings</span>
@@ -122,7 +122,7 @@
                     <span class="item-name">Blogs List</span>
                 </a>
             </li>
-             <li class="nav-item">
+            <li class="nav-item">
                 <a class="" href="/admin/blogs-add">
                     <i class="nav-icon i-Add"></i>
                     <span class="item-name">Add Blog</span>
@@ -138,7 +138,7 @@
                     <span class="item-name">Custom Pages</span>
                 </a>
             </li>
-             <li class="nav-item">
+            <li class="nav-item">
                 <a class="" href="/admin/pages">
                     <i class="nav-icon i-Add"></i>
                     <span class="item-name">Add Custom Page</span>
@@ -169,7 +169,7 @@
             <li class="nav-item">
                 <a class="" href="/admin/best-international-destination">
                     <i class="nav-icon i-Add"></i>
-                    <span class="item-name">Top Weekend Destinations</span>
+                    <span class="item-name">International Trips</span>
                 </a>
             </li>
 
@@ -179,7 +179,7 @@
                     <span class="item-name">Top India Tourism Experiences</span>
                 </a>
             </li> -->
-<!-- 
+            <!--
             <li class="nav-item">
                 <a class="" href="/admin/best-shortbrake-destination">
                     <i class="nav-icon i-Add"></i>
@@ -187,7 +187,7 @@
                 </a>
             </li> -->
 
-              <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="" href="/admin/our-client">
                     <i class="nav-icon i-Add"></i>
                     <span class="item-name">Our Client</span>
@@ -199,20 +199,20 @@
                     <span class="item-name">Our Accreditations</span>
                 </a>
             </li> -->
-<!-- 
+            <!--
             <li class="nav-item">
                 <a class="" href="/admin/ads">
                     <i class="nav-icon i-Add"></i>
                     <span class="item-name">Ads</span>
                 </a>
             </li> -->
- 
-        <li class="nav-item">
-          <a class="" href="/admin/jobs">
-              <i class="nav-icon i-Add"></i>
-              <span class="item-name">Client Feedback</span>
-          </a>
-      </li>
+
+            <li class="nav-item">
+                <a class="" href="/admin/jobs">
+                    <i class="nav-icon i-Add"></i>
+                    <span class="item-name">Client Feedback</span>
+                </a>
+            </li>
 
 
 
@@ -240,19 +240,19 @@
                     <span class="item-name">Tour Subcategory</span>
                 </a>
             </li>
-           
+
             <li class="nav-item">
                 <a class="" href="/admin/tours">
                     <i class="nav-icon i-Receipt-4"></i>
                     <span class="item-name">Tour Packages</span>
                 </a>
             </li>
-<li class="nav-item">
-    <a class="" href="/admin/hotels">
-        <i class="nav-icon i-Receipt-4"></i>
-        <span class="item-name">Hotels</span>
-    </a>
-</li>
+            <li class="nav-item">
+                <a class="" href="/admin/hotels">
+                    <i class="nav-icon i-Receipt-4"></i>
+                    <span class="item-name">Hotels</span>
+                </a>
+            </li>
             <!-- <li class="nav-item">
                 <a class="" href="/admin/cruise">
                     <i class="nav-icon i-Receipt-4"></i>

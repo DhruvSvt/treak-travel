@@ -187,7 +187,7 @@
     <section class="international-pack p-tb mt-5">
         <div class="container1">
             <div class="main-heading mb-3">
-                <h2>Top Weekend Destinations</h2>
+                <h2>International Destinations</h2>
 
             </div>
             <div class="row international-col">

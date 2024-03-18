@@ -23,8 +23,8 @@
         <div class="main-content-wrap sidenav-open d-flex flex-column">
             <div class="main-content">
                 <div class="breadcrumb">
-                    <h1 class="">Weekend Destinations </h1>
-                    <a href="add-best-international-destination" class="ml-3 btn btn-primary">Add Weekend Destinations</a>
+                    <h1 class="">International Destinations </h1>
+                    <a href="add-best-international-destination" class="ml-3 btn btn-primary">Add International Destinations</a>
                 </div>
 
                 <div class="separator-breadcrumb border-top"></div>
@@ -37,7 +37,7 @@
                         <div class="card text-left">
 
                             <div class="card-body">
-                                <h4 class="card-title mb-3"> Weekend Destinations</h4>
+                                <h4 class="card-title mb-3"> International Destinations</h4>
                                 <div class="table-responsive">
                                     <table class="table table-striped table-hover">
                                         <thead class="thead-dark">
@@ -48,7 +48,7 @@
                                                 <th>Destination</th>
                                                 <th>Destination Card</th>
                                                 <th>Destination Starting Price</th>
-                                                
+
                                                 <th width="20%" class="text-center">Action</th>
                                             </tr>
                                         </thead>
@@ -73,9 +73,9 @@
                                                 </td>
                                                 <td>{{$response->international_price }}</td>
 
- 
+
                                                 <td class="text-center">
-                                                    
+
                                                     <a href="{{route('delete-destination',['id'=>$response->destination_id])}}" class="text-primary mr-2">
                                                         <span class="btn btn-sm btn-danger">
                                                             <i class="nav-icon i-Close-Window"></i> Delete
