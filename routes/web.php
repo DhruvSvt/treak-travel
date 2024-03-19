@@ -232,7 +232,7 @@ Route::group(['middleware' => ['customAuth'], 'prefix' => 'admin'], function () 
 });
 
 Route::get('/linkScymbo', function () {
-    $target = '/public_html/treaktravel.com/storage/app/public';
-    $shortcut = '/public_html/treaktravel.com/public/storage';
+    $target = '/home3/treaktravel/public_html/treaktravel.com/storage/app/public';
+    $shortcut = '/home3/treaktravel/public_html/treaktravel.com/public/storage';
     echo symlink($target, $shortcut);
 });
