@@ -1,67 +1,94 @@
-@media screen and (max-width:1599px){
-    .luxury-down-sec{
+@media screen and (max-width:1599px) {
+    .luxury-down-sec {
         bottom: 88px;
     }
 }
-@media screen and (max-width:1499px){
-    .luxury-down-sec{
-        bottom: 40px;
-    }
-    .luxury-top-sec .luxury-content{
-        top: 18px;
+
+@media screen and (max-width:2560px) {
+    .holiday-package {
+        padding: 50px 0 70px;
     }
 }
+
+@media screen and (max-width:1499px) {
+    .luxury-down-sec {
+        bottom: 40px;
+    }
+
+    .luxury-top-sec .luxury-content {
+        top: 18px;
+    }
+
+    .holiday-package {
+        padding: 50px 0 70px;
+    }
+}
+
 @media screen and (max-width:1399px) {
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 63px;
         line-height: 75px;
     }
+
     .holiday-arrows .prev-arrow {
         left: 47%;
         transform: translateX(-47%);
     }
-    .plan-holiday .plans strong{
+
+    .plan-holiday .plans strong {
         font-size: 16px;
     }
-    .plan-holiday .plans p{
+
+    .plan-holiday .plans p {
         font-size: 14px;
     }
-    .banner-sec{
+
+    .banner-sec {
         padding-right: 0px;
     }
-    .banner-left .banner-left-content h2 a{
+
+    .banner-left .banner-left-content h2 a {
         font-size: 45px;
         line-height: 55px;
     }
-    .banner-left .banner-left-content span{
+
+    .banner-left .banner-left-content span {
         font-size: 16px;
     }
-    .main-heading h2{
+
+    .main-heading h2 {
         font-size: 45px;
         line-height: 55px;
     }
-    .holiday-package .pack-content, 
+
+    .holiday-package .pack-content,
     .vacation-week .vacation-week-sec {
         padding-top: 15px;
     }
-    .luxury-content .luxury-left-sec{
+
+    .luxury-content .luxury-left-sec {
         padding: 95px 40px 120px;
         max-width: 310px;
     }
+
     .luxury-content .luxury-left-sec h4 {
         font-size: 27px;
         line-height: 37px;
     }
+
     .luxury-content .luxury-left-sec a {
         padding: 11px 45px 12px 46px;
     }
+
     .luxury-down-sec .prev-arrow {
         left: 42%;
         transform: translateX(-42%);
     }
-    .holiday-package{
+
+    .holiday-package {
         padding: 30px 0 80px;
     }
+
     .latest-trends .trends-sec span {
         font-size: 12px;
         line-height: 18px;
@@ -70,216 +97,284 @@
         display: inline-block;
         padding: 15px 0 8px;
     }
+
     .quick-listing .nav-pills .nav-link {
         padding: 10px 0;
     }
-    .luxury-down-sec{
+
+    .luxury-down-sec {
         bottom: 30px;
     }
+
+    .holiday-package {
+        padding: 50px 0 70px;
+    }
 }
+
 @media screen and (max-width:1366px) {
-    .banner-left .banner-left-content h2 a{
+    .banner-left .banner-left-content h2 a {
         font-size: 40px;
         line-height: 50px;
     }
+
     .banner-content h1 {
         font-size: 50px;
         line-height: 60px;
         margin: 0;
     }
+
     .banner-content p {
         font-size: 16px;
         line-height: 24px;
     }
+
     .banner-content {
         margin-top: 50px;
     }
-    .banner{
+
+    .banner {
         padding-bottom: 70px;
     }
+
     .trending {
         padding: 55px 10px 70px;
     }
+
     .weekend {
         padding: 60px 10px 150px;
     }
-    .international-pack{
+
+    .international-pack {
         padding: 70px 10px 65px;
     }
+
     .interest-content .package-col h4 a {
         font-size: 14px;
         line-height: 24px;
     }
+
     .interest-content .package-col span {
         font-size: 14px;
         line-height: 24px;
     }
 }
+
 @media screen and (max-width:1199px) {
     .banner-left .banner-left-content h2 a {
         font-size: 35px;
         line-height: 45px;
     }
-    .banner-content p{
+
+    .banner-content p {
         font-size: 16px;
         line-height: 27px;
     }
-    .plan-holiday .plans p{
+
+    .plan-holiday .plans p {
         font-size: 14px;
     }
+
     .holiday-arrows .prev-arrow {
         left: 46%;
         transform: translateX(-46%);
     }
-    .tab-listing .an-car{
+
+    .tab-listing .an-car {
         padding-top: 0;
     }
-    .review-content{
+
+    .review-content {
         padding-top: 40px;
     }
-    .acheive-sec.red, .acheive-sec.yellow{
+
+    .acheive-sec.red,
+    .acheive-sec.yellow {
         margin-top: 25px;
     }
+
     .explore-right .north-mid {
         padding-right: 25px;
     }
+
     .explore-sec {
         gap: 25px;
     }
+
     .accordion .accordion-item {
         padding: 8px 0;
     }
+
     .main-heading h2 {
         font-size: 40px;
         line-height: 50px;
     }
-    .trend-right, .trend-left {
+
+    .trend-right,
+    .trend-left {
         left: 20px;
     }
-    .trend-left h4 a, .trend-right h4 a {
+
+    .trend-left h4 a,
+    .trend-right h4 a {
         font-size: 16px;
         line-height: 22px;
     }
+
     .main-heading p a {
         font-size: 17px;
         line-height: 35px;
     }
-    .luxury{
+
+    .luxury {
         padding: 25px 10px;
     }
+
     .luxury-top-sec .luxury-content {
         top: 20px;
     }
+
     .luxury-content .luxury-left-sec {
         padding: 70px 25px 120px;
         max-width: 260px;
     }
+
     .luxury-content .luxury-left-sec h4 {
         font-size: 22px;
         line-height: 32px;
     }
+
     .luxury-content .luxury-left-sec p {
         font-size: 14px;
         line-height: 24px;
         padding: 18px 0;
     }
+
     .luxury-content .luxury-left-sec a {
         padding: 9px 30px 10px 31px;
         font-size: 15px;
     }
+
     .luxury-down-sec {
         bottom: 60px;
     }
+
     .luxury-down-sec .slick-arrow {
         width: 50px;
         height: 50px;
     }
-    .luxury-down-sec .slick-prev::before, 
-    .luxury-down-sec .slick-next::before{
+
+    .luxury-down-sec .slick-prev::before,
+    .luxury-down-sec .slick-next::before {
         line-height: 50px;
     }
+
     .luxury-down-sec .slick-list {
         max-width: 530px;
     }
+
     .luxury-down-sec .slick-slide {
         margin-right: 15px;
     }
+
     .luxury .luxury-right-sec {
         padding: 15px;
     }
+
     .luxury-down-sec .prev-arrow {
         left: 33%;
         transform: translateX(-33%);
     }
-    .best-holiday-sec .bh-content h4 a{
+
+    .best-holiday-sec .bh-content h4 a {
         font-size: 20px;
         line-height: 21px;
     }
+
     .best-holiday-sec .bh-content {
         bottom: 10px;
         left: 25px;
     }
+
     .international-pack .abroad-package h4 {
         padding-top: 15px;
     }
+
     .reviews .customer-profile {
         padding: 5px 0;
     }
+
     .review-content .more-sec {
         padding-top: 30px;
     }
+
     .info-sec {
         padding: 50px 30px 0px 30px;
     }
+
     .info-sec h3 {
         font-size: 30px;
         line-height: 40px;
     }
+
     .tab-list .nav-pills .nav-link {
         padding: 5px 15px;
     }
+
     .tab-list .nav-pills {
         gap: 8px;
     }
+
     .discover-col .discover-content h3 {
         font-size: 30px;
         line-height: 40px;
     }
-    .discover-india{
+
+    .discover-india {
         padding: 70px 10px 40px;
     }
-    .search{
+
+    .search {
         padding: 40px 10px 70px;
     }
+
     .intresting-pack .interest-content {
         gap: 40px 40px;
     }
+
     .customer-content {
         margin-right: 0;
     }
+
     .banner-left .banner-left-content span {
         font-size: 15px;
     }
+
     .interest-content .package-interest {
         width: calc(33.33% - 30px);
     }
+
     .interest-content .package-col {
         padding-left: 20px;
     }
+
     .tab-list .nav-pills .nav-link {
         font-size: 14px;
     }
-    .reviews .customer-content img{
+
+    .reviews .customer-content img {
         height: 100%;
     }
 }
+
 @media screen and (max-width:991px) {
     .container1 {
         width: 90%;
     }
+
     .more-info-sec {
         margin: 0;
     }
+
     /* .nav {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -295,1063 +390,1386 @@
     .banner {
         padding-bottom: 40px;
     }
+
     .trending {
         padding: 40px 10px 70px;
     }
+
     .trend-listing {
         padding-top: 8px;
     }
-    .banner-content{
+
+    .banner-content {
         padding: 0 10px;
         margin: 15px 0 50px;
     }
-    .banner-sec{
+
+    .banner-sec {
         padding: 0;
     }
-    .banner{
+
+    .banner {
         flex-direction: column;
     }
-    .banner-sec, .banner-content{
+
+    .banner-sec,
+    .banner-content {
         width: 100%;
     }
-    .reviews .review-content{
+
+    .reviews .review-content {
         width: 100%;
         padding-top: 25px;
     }
-    .trend-sec-right{
+
+    .trend-sec-right {
         padding-top: 25px;
     }
-    .latest-trends .trends-sec h4 a{
+
+    .latest-trends .trends-sec h4 a {
         font-size: 17px;
         line-height: 26px;
     }
-    .wonder-india{
+
+    .wonder-india {
         flex-direction: column-reverse;
     }
+
     .about-india-sec {
         padding: 20px 0;
     }
-    .explore-sec .explore-left{
-        flex-direction: row!important;
+
+    .explore-sec .explore-left {
+        flex-direction: row !important;
         width: 100%;
         justify-content: space-between;
         border-bottom: 1px solid #D9D9E8;
     }
+
     .explore-sec {
         flex-wrap: wrap;
     }
-    .explore-sec .tab-content{
+
+    .explore-sec .tab-content {
         width: 100%;
     }
-    .explore-left .nav-link{
+
+    .explore-left .nav-link {
         border-bottom: none;
         text-align: center;
         white-space: nowrap;
         padding-right: 30px;
     }
+
     .explore-left button {
         font-size: 16px;
     }
-    .explore-left .active, .explore-left .nav-pills .show>.nav-link {
-        font-size: 20px!important;
+
+    .explore-left .active,
+    .explore-left .nav-pills .show>.nav-link {
+        font-size: 20px !important;
     }
-    .explore-left .nav-link:last-child{
+
+    .explore-left .nav-link:last-child {
         padding-right: 0;
     }
-    .explore-left.nav{
-        margin-right: 0!important;
+
+    .explore-left.nav {
+        margin-right: 0 !important;
     }
-    .explore-right .north-mid p{
+
+    .explore-right .north-mid p {
         font-size: 15px;
         line-height: 24px;
         margin: 0;
     }
+
     .tab-listing .nav-pills .nav-link {
         padding: 8px 25px;
     }
-    .discover-india .discover-col{
+
+    .discover-india .discover-col {
         flex-wrap: wrap;
     }
-    .discover-col .discover-content h3{
+
+    .discover-col .discover-content h3 {
         font-size: 34px;
         line-height: 44px;
     }
-    .discover-col .discover-sec{
+
+    .discover-col .discover-sec {
         padding: 0 0 4px 0;
     }
+
     .discover-col .discover-content h3 {
         font-size: 30px;
         line-height: 40px;
     }
+
     .holiday-package .pack-content h3 a {
         font-size: 16px;
         line-height: 25px;
     }
+
     .holiday-arrows .next-arrow {
         left: 55%;
         transform: translateX(-55%);
     }
+
     .holiday-arrows .prev-arrow {
         left: 45%;
         transform: translateX(-45%);
     }
+
     .luxury-content .luxury-left-sec {
         padding: 50px 15px 85px;
         max-width: 200px;
     }
+
     .luxury-content .luxury-left-sec h4 {
         font-size: 18px;
         line-height: 27px;
     }
+
     .luxury-content .luxury-left-sec strong {
         font-size: 13px;
         line-height: 18px;
         padding-bottom: 10px;
     }
+
     .luxury-content .luxury-left-sec p {
         font-size: 13px;
         line-height: 20px;
         padding: 12px 0;
         margin: 0;
     }
+
     .luxury-content .luxury-left-sec a {
         padding: 6px 15px 7px 16px;
         font-size: 14px;
     }
+
     .luxury-down-sec {
         bottom: 40px;
     }
+
     .luxury-down-sec .slick-list {
         max-width: 370px;
     }
+
     .luxury .luxury-right-sec strong {
         font-size: 14px;
         line-height: 23px;
         font-weight: 800;
     }
+
     .luxury-down-sec .slick-arrow {
         width: 45px;
         height: 45px;
     }
-    .luxury-down-sec .slick-prev::before, 
-    .luxury-down-sec .slick-next::before{
+
+    .luxury-down-sec .slick-prev::before,
+    .luxury-down-sec .slick-next::before {
         line-height: 45px;
     }
+
     .luxury-down-sec .slick-next {
         transform: translateX(-35%);
     }
+
     .luxury .luxury-right-sec {
         width: 90%;
     }
+
     .luxury .luxury-right-sec figure img {
         height: 36px;
         width: 20px;
     }
+
     .main-heading h2 {
         font-size: 32px;
         line-height: 40px;
     }
+
     .best-holiday-sec .bh-content h4 a {
         font-size: 18px;
     }
+
     .vacation-week .vacation-week-sec h4 a {
         font-size: 17px;
         line-height: 24px;
     }
-    .holiday-package .pack-content, .vacation-week .vacation-week-sec {
+
+    .holiday-package .pack-content,
+    .vacation-week .vacation-week-sec {
         padding-top: 10px;
     }
+
     .holiday-arrows .slick-arrow {
         bottom: -68px;
         width: 45px;
         height: 45px;
         line-height: 45px;
     }
+
     .holiday-arrows .prev-arrow {
         left: 46%;
         transform: translateX(-46%);
     }
+
     .holiday-package {
         padding: 0 0 70px;
     }
+
     .experience {
         padding: 0 10px 120px;
     }
-    .happy-customers{
+
+    .happy-customers {
         padding: 50px 10px 80px;
     }
+
     .luxury {
         padding: 0px 10px;
     }
+
     .international-pack .abroad-package h4 a {
         font-size: 17px;
         line-height: 26px;
     }
+
     .international-pack .abroad-package h4 {
         padding: 10px 0;
     }
-    .tab-listing .an-car a{
+
+    .tab-listing .an-car a {
         font-size: 14px;
     }
-    .reviews .review-content h3, 
+
+    .reviews .review-content h3,
     .acheive-sec .acheive-content h3 {
         font-size: 20px;
         line-height: 25px;
     }
-    .reviews .review-content p,.wonder-india p,
+
+    .reviews .review-content p,
+    .wonder-india p,
     .acheive-sec .acheive-content p {
         font-size: 15px;
         line-height: 24px;
         padding: 5px 0;
     }
+
     .acheive-sec figure {
         padding: 10px 0 40px;
     }
-    .information{
+
+    .information {
         padding: 40px 10px;
     }
+
     .info-sec h3 {
         font-size: 28px;
         line-height: 35px;
     }
+
     .info-sec p {
         font-size: 15px;
         line-height: 24px;
         padding: 5px 0 10px;
     }
+
     .info-india {
         flex-wrap: wrap;
     }
-    .inform{
+
+    .inform {
         margin-bottom: 35px;
     }
+
     .discover-col .discover-content {
         width: 100%;
     }
-    .read-more a, .about-india button {
+
+    .read-more a,
+    .about-india button {
         font-size: 15px;
         line-height: 24px;
     }
+
     .faq .faq-section .add-on {
         font-size: 16px;
         padding: 15px 50px;
         margin-bottom: 20px;
     }
+
     .faq .faq-section h5 {
         font-size: 20px;
         line-height: 30px;
     }
+
     .faq .faq-col {
         padding-top: 10px;
     }
+
     .trend-listing .nav-link {
         padding-right: 45px;
     }
+
     .trend-listing .nav {
         margin-bottom: 30px;
     }
-    .intresting-pack{
+
+    .intresting-pack {
         padding: 60px 10px 80px;
     }
-    .intresting-holidays{
+
+    .intresting-holidays {
         padding: 70px 10px;
     }
+
     .reviews .review-content p {
         margin-bottom: 10px;
     }
+
     .acheivements .acheive-col {
         padding-top: 25px;
     }
+
     .acheive-sec {
         padding: 40px 25px 30px;
     }
+
     .acheivements {
         padding: 0 10px 50px;
     }
-    .travel-trends, .incredible-india, .explore-india{
+
+    .travel-trends,
+    .incredible-india,
+    .explore-india {
         padding: 50px 10px 60px;
     }
+
     .info-sec {
         padding: 40px 30px 25px 30px;
     }
+
     .information {
         padding: 40px 10px 30px;
     }
+
     .discover-india {
         padding: 50px 10px 60px;
     }
+
     .interest-listing {
         padding-top: 5px;
     }
+
     .accordion-body {
         padding-top: 4px;
     }
-    .about-india button{
+
+    .about-india button {
         padding-top: 10px;
     }
+
     .discover-india .discover-col {
         display: flex;
         padding: 0px 0 20px;
     }
+
     .discover-india .discovery {
         padding-top: 35px;
     }
+
     .page-btn .read-more {
         padding-top: 20px;
     }
+
     .search {
         padding: 70px 10px 50px;
     }
+
     .search .search-sec {
         padding-top: 10px;
     }
-    .more-info{
+
+    .more-info {
         padding: 60px 10px 70px;
     }
+
     .more-info-sec h3 {
         padding-bottom: 15px;
         margin: 0;
     }
+
     .quick-links {
         padding: 50px 10px 10px;
     }
+
     .quick-links .quick-listing {
         padding: 12px 0 25px;
     }
-    .quick-listing .nav-pills .nav-link .btn{
+
+    .quick-listing .nav-pills .nav-link .btn {
         white-space: nowrap;
     }
+
     .interest-content .package-interest {
         width: calc(50% - 30px);
     }
+
     .explore-right .north-mid p strong {
         font-size: 15px;
     }
+
     .explore-right .accordion-item .accordion-button {
         font-size: 16px;
     }
 }
+
 @media screen and (max-width:767px) {
-    .banner-content p{
+    .banner-content p {
         font-size: 15px;
         line-height: 24px;
     }
+
     .banner {
         padding-bottom: 70px;
     }
+
     .banner-content {
         margin: 10px 0 0px;
     }
+
     .banner-content p {
         margin-bottom: 8px;
     }
+
     .banner-content h1 {
         font-size: 45px;
         line-height: 55px;
     }
+
     .holiday-arrows .next-arrow {
         left: 57%;
         transform: translateX(-57%);
     }
-    .intresting-pack .interest-content{
+
+    .intresting-pack .interest-content {
         gap: 20px 40px;
     }
-    .acheive-sec.blue{
+
+    .acheive-sec.blue {
         margin-top: 25px;
     }
-    .holiday-package .pack-content span{
+
+    .holiday-package .pack-content span {
         font-size: 15px;
         line-height: 26px;
     }
-    .holiday-package .pack-content h3 a{
+
+    .holiday-package .pack-content h3 a {
         font-size: 17px;
         line-height: 27px;
     }
+
     .main-heading p a {
         font-size: 18px;
         line-height: 45px;
     }
-    .vacation-week .vacation-week-sec h4 a{
+
+    .vacation-week .vacation-week-sec h4 a {
         font-size: 17px;
         line-height: 27px;
     }
-    .latest-trends .trends-sec span{
+
+    .latest-trends .trends-sec span {
         padding: 15px 0 0;
     }
-    .trends-sec{
+
+    .trends-sec {
         padding-bottom: 30px;
     }
+
     .vacation-week .vacation-week-sec {
         padding-top: 14px;
     }
+
     .holiday-package .pack-content {
         padding-top: 14px;
     }
+
     .main-heading h2 {
         font-size: 32px;
         line-height: 42px;
         margin: 0;
     }
+
     .main-heading p a {
         font-size: 17px;
         line-height: 40px;
     }
-    .holiday-package .pack-content span, .vacation-week .vacation-week-sec span {
+
+    .holiday-package .pack-content span,
+    .vacation-week .vacation-week-sec span {
         font-size: 14px;
         line-height: 24px;
     }
-    .holiday-package .pack-content h3 a, .vacation-week .vacation-week-sec h4 a
-    ,.international-pack .abroad-package h4 a {
+
+    .holiday-package .pack-content h3 a,
+    .vacation-week .vacation-week-sec h4 a,
+    .international-pack .abroad-package h4 a {
         font-size: 16px;
         line-height: 24px;
     }
+
     .holiday-arrows .slick-arrow {
         bottom: -75px;
     }
+
     .best-holiday-sec .bh-content {
         bottom: 0px;
         left: 15px;
     }
+
     .best-holiday-sec .bh-content h4 a {
         font-size: 15px;
     }
+
     .weekend {
         padding: 70px 10px 100px;
     }
-    .international-pack{
+
+    .international-pack {
         padding: 60px 10px;
     }
+
     .experience {
         padding: 0 10px 100px;
     }
-    .info-sec h3, .discover-col .discover-content h3 {
+
+    .info-sec h3,
+    .discover-col .discover-content h3 {
         font-size: 24px;
         line-height: 35px;
     }
+
     .explore-india .explore-right {
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
-    .explore-right .north-mid{
+
+    .explore-right .north-mid {
         width: 100%;
         padding-top: 30px;
     }
+
     .accordion-item .accordion-button {
         font-size: 18px;
         line-height: 28px;
     }
-   .interest-listing{
-    padding: 10px 0;
-   }
-   .discover-col .discover-sec {
-    padding: 0 0 5px 0;
+
+    .interest-listing {
+        padding: 10px 0;
     }
-    .faq{
+
+    .discover-col .discover-sec {
+        padding: 0 0 5px 0;
+    }
+
+    .faq {
         padding: 30px 10px 50px;
     }
-    .discover-col .discover-content p, .accordion-item .accordion-body p {
+
+    .discover-col .discover-content p,
+    .accordion-item .accordion-body p {
         font-size: 15px;
         line-height: 24px;
     }
-    .search .search-content li a{
+
+    .search .search-content li a {
         font-size: 15px;
     }
+
     .more-info-sec h3 {
         font-size: 32px;
     }
+
     .search {
         padding: 40px 10px;
     }
-    
+
     .quick-links .quick-listing {
         padding: 15px 0 25px;
     }
+
     .luxury-content .luxury-left-sec {
         padding: 55px 15px 150px;
         max-width: 240px;
         margin: 0 auto;
     }
+
     .luxury-down-sec .slick-slide {
         margin-right: 0;
     }
+
     .luxury-down-sec .next-arrow {
         right: 20px;
     }
+
     .luxury .luxury-right-sec {
         margin: 12px;
     }
+
     .luxury-down-sec .slick-slider {
         justify-content: center;
     }
+
     .luxury-down-sec .slick-list {
         margin-right: 0;
     }
+
     .luxury-top-sec .luxury-content {
         top: 10px;
     }
+
     .luxury-content .luxury-left-sec {
-        padding:67px 15px 80px;
+        padding: 67px 15px 80px;
         max-width: 217px;
     }
+
     .luxury-content .luxury-left-sec h4 {
         font-size: 18px;
         line-height: 27px;
     }
+
     .luxury-content .luxury-left-sec strong {
         font-size: 12px;
         line-height: 18px;
         padding-bottom: 10px;
     }
+
     .luxury-content .luxury-left-sec p {
         font-size: 12px;
         line-height: 19px;
         padding: 12px 0;
     }
+
     .luxury-content .luxury-left-sec a {
         padding: 7px 25px 8px 26px;
         font-size: 13px;
         display: inline-block;
     }
+
     .luxury-down-sec .prev-arrow {
         transform: translateX(-6%);
     }
+
     .luxury-down-sec .slick-next {
         transform: translateX(35%);
     }
+
     .banner-content .prev-arrow {
         left: 220px;
     }
+
     .banner-content .next-arrow {
         left: 286px;
     }
+
     .trend-sec-right {
         padding-top: 8px;
     }
-    .trending .trend-visit{
+
+    .trending .trend-visit {
         padding-right: 4px;
     }
-    .trending .trends-visit{
+
+    .trending .trends-visit {
         padding-left: 4px;
     }
-    .travel-trends{
+
+    .travel-trends {
         padding: 50px 10px 30px;
     }
+
     .luxury-top-sec img {
         height: 550px;
         object-fit: cover;
     }
-    .interest-content .package-interest{
+
+    .interest-content .package-interest {
         display: block;
         text-align: center;
     }
+
     .interest-content .package-col {
         padding-left: 0;
         padding: 5px 0;
     }
 }
+
 @media screen and (max-width:575px) {
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 40px;
         line-height: 50px;
     }
-    .banner-left .banner-left-content h2{
+
+    .banner-left .banner-left-content h2 {
         font-size: 35px;
         line-height: 45px;
     }
-    .banner-content{
+
+    .banner-content {
         margin-top: 15px;
     }
+
     .best-holiday-sec .bh-content {
         bottom: 0px;
         left: 20px;
     }
-    .trend-right, .trend-left{
+
+    .trend-right,
+    .trend-left {
         left: 15px;
     }
-    .trend-right, .trend-left {
+
+    .trend-right,
+    .trend-left {
         bottom: 5px;
     }
-    .trend-left h4 a, .trend-right h4 a{
+
+    .trend-left h4 a,
+    .trend-right h4 a {
         font-size: 15px;
         line-height: 20px;
     }
+
     .main-heading h2 {
         font-size: 24px;
         line-height: 34px;
     }
+
     .main-heading p a {
         font-size: 15px;
     }
+
     .holiday-arrows .prev-arrow {
         left: 43%;
         transform: translateX(-43%);
     }
+
     .holiday-arrows .next-arrow {
         left: 58%;
         transform: translateX(-58%);
     }
-    .holiday-package .pack-content span, .vacation-week .vacation-week-sec span{
+
+    .holiday-package .pack-content span,
+    .vacation-week .vacation-week-sec span {
         font-size: 13px;
     }
-    .holiday-package .pack-content h3 a, .vacation-week .vacation-week-sec h4 a,
-     .international-pack .abroad-package h4 a{
+
+    .holiday-package .pack-content h3 a,
+    .vacation-week .vacation-week-sec h4 a,
+    .international-pack .abroad-package h4 a {
         font-size: 15px;
-     }
-     .tab-listing .an-car {
+    }
+
+    .tab-listing .an-car {
         padding-top: 8px;
     }
+
     .latest-trends .trends-sec h4 a {
         font-size: 16px;
         line-height: 24px;
     }
-    .travel-trends{
+
+    .travel-trends {
         padding: 40px 10px 20px;
     }
-    .trending{
-        padding: 40px 0 ;
+
+    .trending {
+        padding: 40px 0;
     }
-    .trend-visit{
+
+    .trend-visit {
         padding-right: 6px;
     }
-    .trends-visit{
+
+    .trends-visit {
         padding-left: 6px;
     }
+
     .holiday-package {
         padding: 30px 0 70px;
     }
+
     .quick-links .quick-listing {
         padding: 8px 0 10px;
     }
+
     .quicks-package {
         padding-top: 10px;
     }
-    .intresting-pack, .international-pack, .acheivements
-    ,.explore-india{
+
+    .intresting-pack,
+    .international-pack,
+    .acheivements,
+    .explore-india {
         padding: 60px 10px;
     }
+
     .intresting-pack .tab-list {
         padding: 15px 0;
     }
-    .intresting-holidays{
+
+    .intresting-holidays {
         padding: 60px 10px 70px;
     }
-    .weekend{
-        padding:60px 10px 100px;
+
+    .weekend {
+        padding: 60px 10px 100px;
     }
+
     .experience {
         padding: 0 10px 110px;
     }
+
     .happy-customers {
         padding: 50px 10px 30px;
     }
-    .faq{
+
+    .faq {
         padding: 0 10px 40px;
     }
-    .incredible-india{
+
+    .incredible-india {
         padding: 50px 10px;
     }
-    
-    .acheivements .acheive-col{
+
+    .acheivements .acheive-col {
         padding-top: 20px;
     }
-    .acheive-sec{
+
+    .acheive-sec {
         padding: 35px 25px;
     }
+
     .information {
         padding: 20px 10px;
     }
-    .plan-holiday figure img{
+
+    .plan-holiday figure img {
         transform: none;
         border-radius: 3px;
     }
+
     .page-btn .read-more {
         padding-top: 15px;
     }
+
     .search {
         padding: 15px 10px 40px;
     }
+
     .discover-india .discovery {
         padding-top: 40px;
     }
+
     .discover-india .discover-col {
         padding: 25px 0 20px;
     }
-    .discover-india .main-heading p{
+
+    .discover-india .main-heading p {
         margin: 0;
     }
+
     .discover-col .discover-sec {
         padding: 0;
     }
+
     .plan-holiday {
         padding: 15px;
     }
+
     .plan-holiday .banner-plan {
         padding: 0 0 10px;
     }
+
     .banner-slider .slick-slide {
         margin: 5px;
     }
+
     .banner {
         padding: 0 0 70px;
     }
+
     .more-info-sec h5 {
         line-height: 24px;
     }
+
     .about-india-sec {
         padding: 15px 0;
     }
+
     .review-content {
         padding-top: 25px;
     }
+
     .trend-listing {
         padding-top: 12px;
     }
+
     .trend-listing .nav {
         margin-bottom: 25px;
     }
+
     .luxury-content .luxury-left-sec h4 {
         font-size: 18px;
         line-height: 27px;
     }
+
     .luxury-content .luxury-left-sec strong {
         font-size: 13px;
         line-height: 18px;
         padding-bottom: 10px;
     }
+
     .luxury-content .luxury-left-sec p {
         font-size: 13px;
         line-height: 20px;
         padding: 12px 0;
         margin: 0;
     }
+
     .luxury-content .luxury-left-sec a {
         padding: 6px 15px 7px 16px;
         font-size: 14px;
     }
+
     .quick-links {
         padding: 50px 10px 0;
     }
+
     .banner-content p {
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 20px;
     }
+
     .holiday-arrows .slick-arrow {
         bottom: -65px;
     }
+
     .interest-content .package-col span {
         font-size: 13px;
         line-height: 24px;
     }
+
     .interest-content .package-col h4 a {
         font-size: 14px;
         line-height: 24px;
     }
+
     .luxury {
         padding: 0 10px;
     }
+
     .banner-content .prev-arrow {
         left: 133px;
     }
+
     .banner-content .next-arrow {
         left: 200px;
     }
+
     .tab-list .nav-pills .nav-link.active {
         font-size: 14px;
     }
+
     .main-heading p {
         margin-bottom: 10px;
     }
+
     .info-india .info-col {
         gap: 15px;
     }
+
     .explore-right .north-mid {
         padding-top: 30px;
     }
-    .info-sec h3, .discover-col .discover-content h3 {
+
+    .info-sec h3,
+    .discover-col .discover-content h3 {
         font-size: 20px;
         line-height: 26px;
     }
-    .discover-col .discover-content p, .accordion-item .accordion-body p {
+
+    .discover-col .discover-content p,
+    .accordion-item .accordion-body p {
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 5px;
     }
+
     .explore-right .north-mid p {
         line-height: 22px;
     }
+
     .accordion-body {
         font-size: 15px;
         line-height: 22px;
     }
+
     .more-info-sec h3 {
         font-size: 24px;
         line-height: 32px;
         padding-bottom: 10px;
     }
+
     .more-info {
         padding: 60px 10px 50px;
     }
+
     .info-sec p {
         line-height: 22px;
     }
-    .reviews .review-content p, .wonder-india p, .acheive-sec .acheive-content p {
+
+    .reviews .review-content p,
+    .wonder-india p,
+    .acheive-sec .acheive-content p {
         line-height: 22px;
     }
+
     .trends-sec {
         padding-bottom: 25px;
     }
+
     .luxury-down-sec .slick-list {
         max-width: 200px;
     }
+
     .luxury .luxury-right-sec strong {
         font-size: 13px;
     }
+
     .luxury .luxury-right-sec {
         padding: 22px 15px;
     }
+
     .luxury-down-sec {
         bottom: 20px;
     }
+
     .banner-left .banner-left-content {
         bottom: 60px;
     }
+
     .banner-sec .prev-arrow {
         right: 53%;
     }
+
     .banner-sec .next-arrow {
         right: 44%;
     }
+
     .banner-left .banner-left-content h2 a {
         font-size: 28px;
         line-height: 38px;
     }
-    .exploring-india .nav button{
+
+    .exploring-india .nav button {
         padding-right: 26px;
     }
-    .explore-india .nav{
-        margin-bottom: 0!important;
+
+    .explore-india .nav {
+        margin-bottom: 0 !important;
     }
+
     .explore-left button {
         font-size: 17px;
         line-height: 27px;
     }
-    .explore-left .active, .explore-left .nav-pills .show>.nav-link {
-        font-size: 22px!important;
-        font-weight: 700!important;
+
+    .explore-left .active,
+    .explore-left .nav-pills .show>.nav-link {
+        font-size: 22px !important;
+        font-weight: 700 !important;
     }
+
     .quick-links .top-heading small {
         line-height: 22px;
     }
 }
+
 @media screen and (max-width:449px) {
     .info-sec .info-col {
         flex-wrap: wrap;
     }
+
     .interest-content .package-col h4 a {
         font-size: 14px;
         line-height: 22px;
     }
+
     .interest-content .package-interest {
         padding-bottom: 20px;
     }
-    .package-col h4{
+
+    .package-col h4 {
         margin: 0;
         line-height: 18px;
     }
+
     .interest-content .package-col span {
         font-size: 13px;
         line-height: 24px;
     }
+
     .intresting-pack .interest-content {
-        gap: 0 40px; 
+        gap: 0 40px;
     }
+
     .holiday-arrows .prev-arrow {
         left: 42%;
         transform: translateX(-42%);
     }
+
     .banner-content h1 {
         font-size: 34px;
         line-height: 44px;
     }
+
     .luxury-top-sec .luxury-content {
         top: 20px;
     }
 }
+
 @media screen and (max-width:399px) {
-    .banner-content h1{
+    .banner-content h1 {
         font-size: 30px;
         line-height: 40px;
         font-weight: 500;
     }
+
     .holiday-arrows .next-arrow {
         left: 59%;
         transform: translateX(-59%);
     }
+
     .holiday-arrows .prev-arrow {
         left: 42%;
         transform: translateX(-42%);
     }
+
     .search .search-content li a {
         width: 100%;
         text-align: center;
     }
+
     .search .search-content li {
         width: 100%;
     }
+
     .quick-listing .nav-pills .nav-link {
         margin-right: 38px;
     }
+
     .quick-links .top-heading h4 {
         font-size: 24px;
         line-height: 35px;
         padding-bottom: 5px;
     }
+
     .more-info-sec h3 {
         font-size: 24px;
         line-height: 34px;
     }
-    
+
     .tab-listing .nav-pills .nav-item,
-    .tab-listing .nav-pills .nav-link{
+    .tab-listing .nav-pills .nav-link {
         width: 100%;
     }
-    .quick-listing .nav-pills .nav-link .btn{
+
+    .quick-listing .nav-pills .nav-link .btn {
         font-size: 11px;
     }
-    
+
     .faq .faq-section h5 {
         font-size: 18px;
         line-height: 28px;
     }
+
     .faq .faq-section .add-on {
         font-size: 15px;
         padding: 13px 40px;
     }
-    .info-sec h3, .discover-col .discover-content h3 {
+
+    .info-sec h3,
+    .discover-col .discover-content h3 {
         font-size: 20px;
         line-height: 30px;
     }
-    .explore-left button{
+
+    .explore-left button {
         font-size: 18px;
         line-height: 28px;
     }
-   
+
     .tab-listing .an-car {
         width: 100%;
         white-space: nowrap;
     }
-    .holiday-package .pack-content h3 a, .vacation-week .vacation-week-sec h4 a,
-     .international-pack .abroad-package h4 a {
+
+    .holiday-package .pack-content h3 a,
+    .vacation-week .vacation-week-sec h4 a,
+    .international-pack .abroad-package h4 a {
         font-size: 14px;
         line-height: 20px;
     }
+
     .review-content .more-reviews a small {
         padding: 9px 60px 11px 30px;
     }
+
     .plan-holiday {
         border: 1px solid #c4c4c4;
         box-shadow: none;
     }
-    .banner-content .slick-arrow{
+
+    .banner-content .slick-arrow {
         width: 40px;
         height: 40px;
         line-height: 40px;
         border: 1px solid #c4c4c4;
     }
-    .banner-content .prev-arrow{
+
+    .banner-content .prev-arrow {
         left: 42%;
         transform: translateX(-42%);
     }
-    .banner-content .next-arrow{
+
+    .banner-content .next-arrow {
         left: 58%;
         transform: translateX(-58%);
     }
+
     .holiday-arrows .slick-arrow {
         width: 40px;
         height: 40px;
         line-height: 40px;
         bottom: -65px;
     }
+
     .quick-links {
         padding: 40px 10px 5px;
     }
-    .more-info, .discover-india {
+
+    .more-info,
+    .discover-india {
         padding: 40px 10px;
     }
+
     .luxury-down-sec .slick-list {
         max-width: 180px;
     }
+
     .luxury-content .luxury-left-sec h4 {
         font-size: 15px;
         line-height: 24px;
     }
+
     .luxury-content .luxury-left-sec strong {
         font-size: 12px;
         line-height: 16px;
         padding-bottom: 8px;
     }
+
     .luxury-content .luxury-left-sec p {
         font-size: 12px;
     }
+
     .luxury-content .luxury-left-sec a {
         padding: 4px 20px 5px 21px;
         font-size: 12px;
     }
+
     .luxury-content .luxury-left-sec {
         padding: 75px 15px 80px;
     }
+
     .banner-content .slick-arrow {
         bottom: -55px;
     }
+
     .trend-listing .nav-link {
         padding-right: 40px;
     }
+
     .holiday-package {
         padding: 20px 0 60px;
     }
-    .intresting-pack{
+
+    .intresting-pack {
         padding: 55px 10px 45px;
     }
-    .weekend .vacation-week, .experience .vacation-week
-    , .best-holiday-sec , .holiday-package .pack-sec {
+
+    .weekend .vacation-week,
+    .experience .vacation-week,
+    .best-holiday-sec,
+    .holiday-package .pack-sec {
         margin: 0 6px;
     }
+
     .weekend {
         padding: 50px 10px 100px;
     }
-    .international-pack{
+
+    .international-pack {
         padding: 50px 10px;
     }
+
     .review-sec {
         padding-top: 10px;
     }
+
     .acheive-sec {
         padding: 35px 20px 10px;
     }
+
     .exploring-india {
         padding-top: 0;
     }
+
     .exploring-india .nav button {
         padding-right: 20px;
     }
+
     .accordion-item .accordion-button {
         font-size: 17px;
         line-height: 24px;
     }
-    .read-more a, .about-india button {
+
+    .read-more a,
+    .about-india button {
         font-size: 14px;
         line-height: 21px;
     }
-    .faq{
+
+    .faq {
         padding: 15px 10px 50px;
     }
+
     .review-content .more-reviews .more-btn {
         top: -5px;
     }
-    .acheivements{
+
+    .acheivements {
         padding: 45px 10px 60px
     }
+
     .explore-right .north-mid {
         padding-top: 25px;
     }

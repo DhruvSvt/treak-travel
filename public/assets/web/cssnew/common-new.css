@@ -1131,6 +1131,12 @@ ul.drop-menu.wndg-twidth {
     max-width: 103px
 }
 
+@media only screen and (min-width:1367px) {
+    .header-main .logo img {
+        width: 79px
+    }
+}
+
 @media only screen and (max-width:1366px) {
     .header-main {
         z-index: 99
@@ -1172,9 +1178,9 @@ ul.drop-menu.wndg-twidth {
         box-shadow: 1px 1px 1px #979797;
     }
 
-    /* .header-main .logo img {
-        width: 79px
-    } */
+    .header-main .logo img {
+        width: 103px
+    }
 
     .navigation ul li.dropdown ul.drop-menu {
         top: 60px;
