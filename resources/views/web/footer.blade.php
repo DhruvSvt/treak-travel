@@ -65,12 +65,11 @@
         <div class="footer-info-content">
             <ul class="footer-info">
                 <li><i class="fa fa-map-marker" aria-hidden="true"></i>Prateek Tower - Sanjay Place</li>
-                <li><i class="fa fa-phone" aria-hidden="true"></i>+91-856-84451234 - 99 (85 hunting lines are
-                    available)</li>
-                <li><i class="fa fa-fax" aria-hidden="true"></i>+91-120-98989898</li>
-                <li><i class="fa fa-mobile" aria-hidden="true"></i>+91-84454545/24</li>
-                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>info@treaktravel.com </li>
-                <li><i class="fa fa-whatsapp" aria-hidden="true"></i>+91-9212772525 (Only for Whatsapp)</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>+91-9557711417</li>
+                <li><i class="fa fa-fax" aria-hidden="true"></i>+91-9557711417</li>
+                <li><i class="fa fa-mobile" aria-hidden="true"></i>+91-9557711417</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i>treaktravel@gmail.com </li>
+                <li><i class="fa fa-whatsapp" aria-hidden="true"></i>+91-9557711417 (Only for Whatsapp)</li>
             </ul>
             <div class="social-icons">
                 <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
