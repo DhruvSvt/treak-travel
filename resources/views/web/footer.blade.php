@@ -65,8 +65,8 @@
         <div class="footer-info-content">
             <ul class="footer-info">
                 <li><i class="fa fa-map-marker" aria-hidden="true"></i>H No. B-72, North Vijay Nagar Colony, New Agra
-                    Colony, Agra, Agra, Uttar Pradesh, 282005</li>
-                <li><i class="fa fa-phone" aria-hidden="true"></i>+91 9557711417 </li>
+                    Colony, Agra, Uttar Pradesh, 282005</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>+91 562 4061355 </li>
                 <li><i class="fa fa-fax" aria-hidden="true"></i>+91 9557711417 </li>
                 <li><i class="fa fa-mobile" aria-hidden="true"></i>+91 9557711417 </li>
                 <li><i class="fa fa-envelope-o" aria-hidden="true"></i>treaktravel@gmail.com </li>
